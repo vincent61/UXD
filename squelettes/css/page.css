@@ -1,0 +1,43 @@
+/* menu */
+#menu{
+	display: inline-block;
+	width:200px;
+	vertical-align: top;
+}
+
+#menu a, #menu a:visited{
+	text-decoration: none;
+	color:black;
+}
+#menu a:hover{
+	text-decoration: underline;
+}
+
+#menu ul{
+	padding:0px;
+}
+
+#menu line-height: {
+	list-style: none;
+	height: 20px;
+	border:1px solid #666;
+	border-bottom: none;
+	background-color: #FFCC00;
+	padding:3px;
+}
+
+#menu #last_menu{
+	border-bottom:1px solid #666;
+}
+
+
+/* contenu */
+#content{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+h1{color: red;}
+h2{color: #FFCC00;}
+h3{color: #222;}
