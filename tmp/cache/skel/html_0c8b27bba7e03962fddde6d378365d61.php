@@ -2,13 +2,13 @@
 
 /*
  * Squelette : ../prive/objets/editer/traductions.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:58 GMT
+ * Compile :   Wed, 08 May 2013 10:04:40 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/objets/editer/traductions.html
-// Temps de compilation total: 1.939 ms
+// Temps de compilation total: 5.245 ms
 //
 
 function html_0c8b27bba7e03962fddde6d378365d61($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

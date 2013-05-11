@@ -1,0 +1,5 @@
+a:11:{s:9:"squelette";s:37:"html_7de53b2cfc4ea75c9cef317324467738";s:6:"source";s:24:"squelettes/tutoriel.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"4/tut-tut-2--9abf5dc246d7409a54ef2d";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:83:"
+<h1>Mon deuxième article</h1>
+<b></b>
+<div align="justify"><p>test</p></div>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:8:"tutoriel";s:10:"id_article";i:2;s:4:"date";s:19:"2013-05-08 11:16:12";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-08 11:16:12";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368011772;s:2:"gz";b:0;}

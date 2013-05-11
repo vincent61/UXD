@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes-dist/sommaire.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 09:12:21 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:07 GMT
+ * Compile :   Wed, 08 May 2013 13:35:51 GMT
  * Boucles :   _breves, _forums_liens, _syndic
  */ 
 
@@ -198,7 +198,7 @@ interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, 
 
 //
 // Fonction principale du squelette squelettes-dist/sommaire.html
-// Temps de compilation total: 19.554 ms
+// Temps de compilation total: 32.709 ms
 //
 
 function html_c2574764ae72bb3d3f8718b176df97f2($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

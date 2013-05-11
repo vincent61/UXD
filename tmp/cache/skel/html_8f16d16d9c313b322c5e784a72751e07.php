@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../prive/squelettes/inclure/menu-navigation.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:12:55 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:56 GMT
+ * Compile :   Wed, 08 May 2013 09:34:29 GMT
  * Boucles :   _menusous, _menu
  */ 
 
@@ -132,7 +132,7 @@ BOUCLE_menusoushtml_8f16d16d9c313b322c5e784a72751e07($Cache, $Pile, $doublons, $
 
 //
 // Fonction principale du squelette ../prive/squelettes/inclure/menu-navigation.html
-// Temps de compilation total: 3.206 ms
+// Temps de compilation total: 5.320 ms
 //
 
 function html_8f16d16d9c313b322c5e784a72751e07($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

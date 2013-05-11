@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes-dist/404.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 10:04:34 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:07 GMT
+ * Compile :   Fri, 10 May 2013 18:49:02 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes-dist/404.html
-// Temps de compilation total: 5.123 ms
+// Temps de compilation total: 16.430 ms
 //
 
 function html_14bbf73ca8ff14e3301003a1735c9017($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

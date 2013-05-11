@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes-dist/inclure/recents.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 09:12:22 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:08 GMT
+ * Compile :   Wed, 08 May 2013 13:53:25 GMT
  * Boucles :   _articles
  */ 
 
@@ -116,7 +116,7 @@ interdire_scripts(affdate_jourcourt(normaliser_date($Pile[$SP]['date']))) .
 
 //
 // Fonction principale du squelette squelettes-dist/inclure/recents.html
-// Temps de compilation total: 2.701 ms
+// Temps de compilation total: 8.768 ms
 //
 
 function html_f273f26085c1cce715f8e17b4846204c($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

@@ -7,32 +7,95 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html dir="#LANG_DIR" lang="#LANG" xmlns="http://www.w3.org/1999/xhtml" xml:lang="#LANG" class="[(#LANG_DIR)][ (#LANG)] no-js"> <!--<![endif]-->
 <head>
 <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
-<title>[(#NOM_SITE_SPIP|textebrut)][ - (#SLOGAN_SITE_SPIP|textebrut)]</title>
+<title>[(#NOM_SITE_SPIP)][ - (#SLOGAN_SITE_SPIP|textebrut)]</title>
 [<meta name="description" content="(#DESCRIPTIF_SITE_SPIP|couper{150}|textebrut)" />]
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+[<link rel="stylesheet" href="(#CHEMIN{css/reset.css}|direction_css)" type="text/css" />]
 [<link rel="stylesheet" href="(#CHEMIN{css/page.css}|direction_css)" type="text/css" />]
 </head>
 
 <body class="pas_surlignable page_sommaire">
 	<nav id="menu">
+		<div id="UXD"><a href="./">UXD</a></div>
 		<ul>
-			<li><a href="http://localhost/UXD">UXD</a></li>
-			<li><a href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">Enseignements</a></li>
-			<li><a href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">International</a></li>
-			<li><a href="">Métiers et Stages</a></li>
-			<li><a href="">Equipes de recherche</a></li>
-			<li><a href="">Projets</a></li>
-			<li id="last_menu"><a href="">Informations pratiques</a></li>
+			<li id="EnseignementTitre"><a href="./spip.php?page=page&id_rubrique=1">Enseignement</a>
+				[(#ENV{id_rubrique}|choixsiegal{1,<ul>,<ul class="MenuCache">})]
+					<BOUCLE_sousrubrique1(RUBRIQUES){id_parent=1}>
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=1#sousRub#ID_RUBRIQUE">#TITRE</a>
+						</li>
+					</BOUCLE_sousrubrique1>
+				</ul>
+			</li>
+
+			<li id="InternationalTitre"><a href="./spip.php?page=page&id_rubrique=2">International</a>
+				[(#ENV{id_rubrique}|choixsiegal{2,<ul>,<ul class="MenuCache">})]
+					<BOUCLE_sousrubrique2(RUBRIQUES){id_parent=2}>
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=2#sousRub#ID_RUBRIQUE">#TITRE</a>
+						</li>
+					</BOUCLE_sousrubrique2>
+				</ul>
+			</li>
+
+			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et Stages</a>
+				[(#ENV{id_rubrique}|choixsiegal{7,<ul>,<ul class="MenuCache">})]
+					<BOUCLE_sousrubrique7(RUBRIQUES){id_parent=7}>
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=7#sousRub#ID_RUBRIQUE">#TITRE</a>
+						</li>
+					</BOUCLE_sousrubrique7>	
+				</ul>
+			</li>
+
+			<li id="EquipesRechercheTitre"><a href="./spip.php?page=page&id_rubrique=12">Equipes de recherche</a>
+				[(#ENV{id_rubrique}|choixsiegal{12,<ul>,<ul class="MenuCache">})]
+					<BOUCLE_sousrubrique12(RUBRIQUES){id_parent=12}>
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=12#sousRub#ID_RUBRIQUE">#TITRE</a>
+						</li>
+					</BOUCLE_sousrubrique12>	
+				</ul>
+			</li>
+
+			<li id="ProjetsTitre"><a href="./spip.php?page=page&id_rubrique=16">Projets</a>
+				[(#ENV{id_rubrique}|choixsiegal{16,<ul>,<ul class="MenuCache">})]
+					<BOUCLE_sousrubrique16(RUBRIQUES){id_parent=16}>
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=16#sousRub#ID_RUBRIQUE">#TITRE</a>
+						</li>
+					</BOUCLE_sousrubrique16>	
+				</ul>
+			</li>
+
+			<li id="InformationsPratiquesTitre"><a href="./spip.php?page=page&id_rubrique=20">Informations pratiques</a>
+				[(#ENV{id_rubrique}|choixsiegal{20,<ul>,<ul class="MenuCache">})]
+					<BOUCLE_sousrubrique20(RUBRIQUES){id_parent=20}>
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=20#sousRub#ID_RUBRIQUE">#TITRE</a>
+						</li>
+					</BOUCLE_sousrubrique20>	
+				</ul>
+			</li>
+
 		</ul>
+
+		<div id="logo">
+			<a href="http://www.utc.fr"><img src="squelettes/css/images/logo_utc.png" alt= "UTC"></img></a>
+		</div>
 	</nav>
+
 	<section id="content">
 		<BOUCLE_rubrique(RUBRIQUES){id_rubrique}>
 			<h1>#TITRE</h1>
 			<BOUCLE_sousrubrique(RUBRIQUES){id_parent}>
-				<h2>#TITRE</h2>
+				<h2 id="sousRub#ID_RUBRIQUE">#TITRE</h2>
 				<BOUCLE_article(ARTICLES){id_rubrique}>
 					<h3>#TITRE</h3>
 					<b>#CHAPO</b>
-					<div align="justify">#TEXTE</div>
+					<div id="ContenuTexte">#TEXTE</div></br>
 				</BOUCLE_article>
 			</BOUCLE_sousrubrique>
 		</BOUCLE_rubrique>

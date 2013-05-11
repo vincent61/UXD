@@ -1,0 +1,16 @@
+a:11:{s:9:"squelette";s:37:"html_7de53b2cfc4ea75c9cef317324467738";s:6:"source";s:24:"squelettes/tutoriel.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"f/tut-tut-1--79abbecce6927bfe0c6d8c";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:213:"
+<h1>Enseignements</h1>
+
+
+
+
+
+
+<FORM ACTION="spip.php?page=article" METHOD="get">
+	
+	<SELECT NAME="id_article">
+		
+	</SELECT>
+
+	<INPUT TYPE="submit" NAME="Valider" VALUE="Afficher l'article">
+</FORM>";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:8:"tutoriel";s:11:"id_rubrique";i:1;s:4:"date";s:19:"2013-05-08 14:32:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-08 14:32:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368023578;s:2:"gz";b:0;}

@@ -2,13 +2,13 @@
 
 /*
  * Squelette : ../plugins-dist/compagnon/compagnon/accueil.html
- * Date :      Wed, 17 Apr 2013 16:48:02 GMT
- * Compile :   Fri, 10 May 2013 09:12:15 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:23 GMT
+ * Compile :   Wed, 08 May 2013 09:33:15 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../plugins-dist/compagnon/compagnon/accueil.html
-// Temps de compilation total: 1.506 ms
+// Temps de compilation total: 2.680 ms
 //
 
 function html_635af40b1d9218ff7f3fad2279935425($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

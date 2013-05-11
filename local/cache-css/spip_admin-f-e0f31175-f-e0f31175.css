@@ -49,7 +49,7 @@ a:active.spip-admin-boutons,
 	margin:0 !important;
 	border:0 !important;
 	border-bottom:2px solid #FEFF7F !important;
-	background:url("//localhost:8888/spip/prive/images/fond-inclure.png") repeat top left !important;
+	background:url("//localhost/UXD/prive/images/fond-inclure.png") repeat top left !important;
 }
 .inclure_blocs > h6 {background:#FEFF7F;margin:0;padding:2px;margin-bottom:2px;font-family: Courier;font-size: 0.8em;}
 .inclure_blocs > h6:hover,

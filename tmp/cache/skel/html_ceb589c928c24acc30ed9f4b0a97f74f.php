@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../prive/formulaires/instituer_objet.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:13:06 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:49 GMT
+ * Compile :   Wed, 08 May 2013 10:05:10 GMT
  * Boucles :   _choix
  */ 
 
@@ -68,7 +68,7 @@ interdire_scripts(_T($Pile[$SP]['valeur'])) .
 
 //
 // Fonction principale du squelette ../prive/formulaires/instituer_objet.html
-// Temps de compilation total: 7.137 ms
+// Temps de compilation total: 15.776 ms
 //
 
 function html_ceb589c928c24acc30ed9f4b0a97f74f($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

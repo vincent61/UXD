@@ -2,13 +2,13 @@
 
 /*
  * Squelette : ../plugins-dist/medias/prive/objets/contenu/portfolio_document.html
- * Date :      Wed, 17 Apr 2013 16:48:50 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:45 GMT
+ * Compile :   Wed, 08 May 2013 10:05:10 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../plugins-dist/medias/prive/objets/contenu/portfolio_document.html
-// Temps de compilation total: 0.644 ms
+// Temps de compilation total: 0.906 ms
 //
 
 function html_c3c5ba687b6c308b20adb73158e22ec5($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

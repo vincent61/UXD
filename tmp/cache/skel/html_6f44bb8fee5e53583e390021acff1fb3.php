@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../prive/squelettes/contenu/suivi_edito.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:12:54 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:56 GMT
+ * Compile :   Wed, 08 May 2013 13:17:31 GMT
  * Boucles :   _haspostdate
  */ 
 
@@ -73,7 +73,7 @@ vide($Pile['vars'][(string)'recentwhere'] = quete_condition_postdates('date')) .
 
 //
 // Fonction principale du squelette ../prive/squelettes/contenu/suivi_edito.html
-// Temps de compilation total: 4.059 ms
+// Temps de compilation total: 19.684 ms
 //
 
 function html_6f44bb8fee5e53583e390021acff1fb3($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

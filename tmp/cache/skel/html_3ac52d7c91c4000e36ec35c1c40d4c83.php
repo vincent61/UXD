@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../prive/squelettes/contenu/article.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:56 GMT
+ * Compile :   Wed, 08 May 2013 10:05:10 GMT
  * Boucles :   _proposer, _article
  */ 
 
@@ -267,7 +267,7 @@ boite_fermer() .
 
 //
 // Fonction principale du squelette ../prive/squelettes/contenu/article.html
-// Temps de compilation total: 14.079 ms
+// Temps de compilation total: 19.237 ms
 //
 
 function html_3ac52d7c91c4000e36ec35c1c40d4c83($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

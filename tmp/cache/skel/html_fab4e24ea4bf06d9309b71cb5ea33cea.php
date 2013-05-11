@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../plugins-dist/compagnon/compagnon/article_redaction.html
- * Date :      Wed, 17 Apr 2013 16:48:02 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:23 GMT
+ * Compile :   Wed, 08 May 2013 10:05:10 GMT
  * Boucles :   _article_en_redaction
  */ 
 
@@ -81,7 +81,7 @@ function BOUCLE_article_en_redactionhtml_fab4e24ea4bf06d9309b71cb5ea33cea(&$Cach
 
 //
 // Fonction principale du squelette ../plugins-dist/compagnon/compagnon/article_redaction.html
-// Temps de compilation total: 1.899 ms
+// Temps de compilation total: 2.646 ms
 //
 
 function html_fab4e24ea4bf06d9309b71cb5ea33cea($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

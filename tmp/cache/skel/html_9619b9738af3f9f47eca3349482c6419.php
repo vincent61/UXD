@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/sommaire.html
- * Date :      Fri, 10 May 2013 12:56:51 GMT
- * Compile :   Fri, 10 May 2013 12:57:45 GMT
+ * Date :      Sat, 11 May 2013 17:04:04 GMT
+ * Compile :   Sat, 11 May 2013 17:04:55 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/sommaire.html
-// Temps de compilation total: 5.592 ms
+// Temps de compilation total: 3.739 ms
 //
 
 function html_9619b9738af3f9f47eca3349482c6419($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -107,8 +107,8 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
 	<div class="main">
 
     <div id="rubriques">
-      <div class="rubrique"><a href="http://localhost:8888/UXD/spip.php?page=page&id_rubrique=1">Enseignement</a></div>
-      <div class="rubrique"><a href="http://localhost:8888/UXD/spip.php?page=page&id_rubrique=2">International</a></div>
+      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=1">Enseignement</a></div>
+      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=2">International</a></div>
       <div class="rubrique">Métiers et Stages</div>
       <div class="rubrique">Equipes de recherche</div>
       <div class="rubrique">Projet</div>

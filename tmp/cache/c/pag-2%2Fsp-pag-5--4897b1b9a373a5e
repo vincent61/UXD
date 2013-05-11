@@ -1,0 +1,34 @@
+a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";s:20:"squelettes/page.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"c/pag-2%2Fsp-pag-5--4897b1b9a373a5e";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1943:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+<title>Mon site SPIP</title>
+
+<link rel="stylesheet" href="squelettes/css/page.css" type="text/css" />
+</head>
+
+<body class="pas_surlignable page_sommaire">
+	<nav id="menu">
+		<ul>
+			<li><a href="http://localhost/UXD">UXD</a></li>
+			<li><a href="http://localhost/UXD_2/spip.php?page=page&id_rubrique=1">Enseignements</a></li>
+			<li><a href="http://localhost/UXD_2/spip.php?page=page&id_rubrique=2">International</a></li>
+			<li><a href="http://localhost/UXD_2/spip.php?page=page&id_rubrique=3">Métiers et Stages</a></li>
+			<li><a href="http://localhost/UXD_2/spip.php?page=page&id_rubrique=4">Equipes de recherche</a></li>
+			<li><a href="http://localhost/UXD_2/spip.php?page=page&id_rubrique=5">Projets</a></li>
+			<li id="last_menu"><a href="http://localhost/UXD_2/spip.php?page=page&id_rubrique=6">Informations pratiques</a></li>
+		</ul>
+	</nav>
+	<section id="content">
+		
+			<h1>Partenaires</h1>
+			
+		
+	<section>
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:4:"page";s:11:"id_rubrique";i:5;s:4:"date";s:19:"2013-05-10 14:31:09";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-10 14:31:09";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368196269;s:2:"gz";b:0;}

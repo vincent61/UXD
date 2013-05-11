@@ -2,13 +2,13 @@
 
 /*
  * Squelette : ../plugins-dist/statistiques/prive/style_prive_plugin_stats.html
- * Date :      Wed, 17 Apr 2013 16:49:16 GMT
- * Compile :   Fri, 10 May 2013 09:12:13 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:12 GMT
+ * Compile :   Wed, 08 May 2013 09:33:13 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../plugins-dist/statistiques/prive/style_prive_plugin_stats.html
-// Temps de compilation total: 2.095 ms
+// Temps de compilation total: 3.303 ms
 //
 
 function html_b89d28a63a51aa115457e82900202130($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

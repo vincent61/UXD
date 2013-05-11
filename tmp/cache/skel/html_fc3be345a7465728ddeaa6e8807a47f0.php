@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../prive/objets/liste/auteurs_lies.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:57 GMT
+ * Compile :   Wed, 08 May 2013 10:05:10 GMT
  * Boucles :   _lettre, _liste_aut
  */ 
 
@@ -239,7 +239,7 @@ singulier_ou_pluriel($Pile[$SP]['compteur_articles'],'info_1_article','info_nb_a
 
 //
 // Fonction principale du squelette ../prive/objets/liste/auteurs_lies.html
-// Temps de compilation total: 12.457 ms
+// Temps de compilation total: 20.652 ms
 //
 
 function html_fc3be345a7465728ddeaa6e8807a47f0($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

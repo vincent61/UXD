@@ -2,10 +2,346 @@
 
 /*
  * Squelette : squelettes/page.html
- * Date :      Wed, 08 May 2013 16:54:07 GMT
- * Compile :   Fri, 10 May 2013 12:57:47 GMT
- * Boucles :   _article, _sousrubrique, _rubrique
+ * Date :      Sat, 11 May 2013 17:41:40 GMT
+ * Compile :   Sat, 11 May 2013 17:41:43 GMT
+ * Boucles :   _sousrubrique1, _sousrubrique2, _sousrubrique7, _sousrubrique12, _sousrubrique16, _sousrubrique20, _article, _sousrubrique, _rubrique
  */ 
+
+function BOUCLE_sousrubrique1html_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'rubriques';
+		$command['id'] = '_sousrubrique1';
+		$command['from'] = array('rubriques' => 'spip_rubriques');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("rubriques.id_rubrique",
+		"rubriques.titre",
+		"rubriques.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('rubriques.statut','!','publie',''), 
+			array('=', 'rubriques.id_parent', "1"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique1',25,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=1#sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
+interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</a>
+						</li>
+					');
+	}
+	lang_select();
+	$iter->free();
+	}
+	return $t0;
+}
+
+
+function BOUCLE_sousrubrique2html_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'rubriques';
+		$command['id'] = '_sousrubrique2';
+		$command['from'] = array('rubriques' => 'spip_rubriques');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("rubriques.id_rubrique",
+		"rubriques.titre",
+		"rubriques.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('rubriques.statut','!','publie',''), 
+			array('=', 'rubriques.id_parent', "2"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique2',35,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=2#sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
+interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</a>
+						</li>
+					');
+	}
+	lang_select();
+	$iter->free();
+	}
+	return $t0;
+}
+
+
+function BOUCLE_sousrubrique7html_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'rubriques';
+		$command['id'] = '_sousrubrique7';
+		$command['from'] = array('rubriques' => 'spip_rubriques');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("rubriques.id_rubrique",
+		"rubriques.titre",
+		"rubriques.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('rubriques.statut','!','publie',''), 
+			array('=', 'rubriques.id_parent', "7"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique7',45,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=7#sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
+interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</a>
+						</li>
+					');
+	}
+	lang_select();
+	$iter->free();
+	}
+	return $t0;
+}
+
+
+function BOUCLE_sousrubrique12html_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'rubriques';
+		$command['id'] = '_sousrubrique12';
+		$command['from'] = array('rubriques' => 'spip_rubriques');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("rubriques.id_rubrique",
+		"rubriques.titre",
+		"rubriques.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('rubriques.statut','!','publie',''), 
+			array('=', 'rubriques.id_parent', "12"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique12',55,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=12#sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
+interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</a>
+						</li>
+					');
+	}
+	lang_select();
+	$iter->free();
+	}
+	return $t0;
+}
+
+
+function BOUCLE_sousrubrique16html_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'rubriques';
+		$command['id'] = '_sousrubrique16';
+		$command['from'] = array('rubriques' => 'spip_rubriques');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("rubriques.id_rubrique",
+		"rubriques.titre",
+		"rubriques.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('rubriques.statut','!','publie',''), 
+			array('=', 'rubriques.id_parent', "16"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique16',65,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=16#sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
+interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</a>
+						</li>
+					');
+	}
+	lang_select();
+	$iter->free();
+	}
+	return $t0;
+}
+
+
+function BOUCLE_sousrubrique20html_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'rubriques';
+		$command['id'] = '_sousrubrique20';
+		$command['from'] = array('rubriques' => 'spip_rubriques');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("rubriques.id_rubrique",
+		"rubriques.titre",
+		"rubriques.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('rubriques.statut','!','publie',''), 
+			array('=', 'rubriques.id_parent', "20"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique20',75,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+						<li>
+							<a href="./spip.php?page=page&id_rubrique=20#sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
+interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</a>
+						</li>
+					');
+	}
+	lang_select();
+	$iter->free();
+	}
+	return $t0;
+}
+
 
 function BOUCLE_articlehtml_f2fb10a416839eb61be04766873c85f4(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
 
@@ -38,7 +374,7 @@ quete_condition_postdates('articles.date',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_article',32,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_article',95,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -55,9 +391,9 @@ interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, 
 					<b>' .
 interdire_scripts(propre($Pile[$SP]['chapo'], $connect, $Pile[0])) .
 '</b>
-					<div align="justify">' .
+					<div id="ContenuTexte">' .
 interdire_scripts(propre($Pile[$SP]['texte'], $connect, $Pile[0])) .
-'</div>
+'</div></br>
 				');
 	}
 	lang_select();
@@ -96,7 +432,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique',30,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique',93,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -107,7 +443,9 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
 		$t0 .= (
 '
-				<h2>' .
+				<h2 id="sousRub' .
+$Pile[$SP]['id_rubrique'] .
+'">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
 '</h2>
 				' .
@@ -151,7 +489,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_rubrique',28,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_rubrique',91,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -178,7 +516,7 @@ BOUCLE_sousrubriquehtml_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublon
 
 //
 // Fonction principale du squelette squelettes/page.html
-// Temps de compilation total: 5.191 ms
+// Temps de compilation total: 24.084 ms
 //
 
 function html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -252,7 +590,7 @@ lang_dir(@$Pile[0]['lang'], 'ltr','rtl') .
 <head>
 <script type=\'text/javascript\'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\\bno-js\\b/,\'js\')})(document.documentElement);/*]]>*/</script>
 <title>' .
-interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect, $Pile[0]))) .
+interdire_scripts(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect, $Pile[0])) .
 (($t1 = strval(interdire_scripts(textebrut(typo($GLOBALS['meta']['slogan_site'], "TYPO", $connect, $Pile[0])))))!=='' ?
 		(' - ' . $t1) :
 		'') .
@@ -260,6 +598,14 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
 ' .
 (($t1 = strval(interdire_scripts(textebrut(couper(propre($GLOBALS['meta']['descriptif_site'], $connect, $Pile[0]),'150')))))!=='' ?
 		('<meta name="description" content="' . $t1 . '" />') :
+		'') .
+'
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+' .
+(($t1 = strval(interdire_scripts(direction_css(find_in_path('css/reset.css')))))!=='' ?
+		('<link rel="stylesheet" href="' . $t1 . '" type="text/css" />') :
 		'') .
 '
 ' .
@@ -271,16 +617,75 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
 
 <body class="pas_surlignable page_sommaire">
 	<nav id="menu">
+		<div id="UXD"><a href="./">UXD</a></div>
 		<ul>
-			<li><a href="http://localhost/UXD">UXD</a></li>
-			<li><a href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">Enseignements</a></li>
-			<li><a href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">International</a></li>
-			<li><a href="">Métiers et Stages</a></li>
-			<li><a href="">Equipes de recherche</a></li>
-			<li><a href="">Projets</a></li>
-			<li id="last_menu"><a href="">Informations pratiques</a></li>
+			<li id="EnseignementTitre"><a href="./spip.php?page=page&id_rubrique=1">Enseignement</a>
+				' .
+interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'1','<ul>','<ul class="MenuCache">')) .
+'
+					' .
+BOUCLE_sousrubrique1html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
+'
+				</ul>
+			</li>
+
+			<li id="InternationalTitre"><a href="./spip.php?page=page&id_rubrique=2">International</a>
+				' .
+interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'2','<ul>','<ul class="MenuCache">')) .
+'
+					' .
+BOUCLE_sousrubrique2html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
+'
+				</ul>
+			</li>
+
+			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et Stages</a>
+				' .
+interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'7','<ul>','<ul class="MenuCache">')) .
+'
+					' .
+BOUCLE_sousrubrique7html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
+'	
+				</ul>
+			</li>
+
+			<li id="EquipesRechercheTitre"><a href="./spip.php?page=page&id_rubrique=12">Equipes de recherche</a>
+				' .
+interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'12','<ul>','<ul class="MenuCache">')) .
+'
+					' .
+BOUCLE_sousrubrique12html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
+'	
+				</ul>
+			</li>
+
+			<li id="ProjetsTitre"><a href="./spip.php?page=page&id_rubrique=16">Projets</a>
+				' .
+interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'16','<ul>','<ul class="MenuCache">')) .
+'
+					' .
+BOUCLE_sousrubrique16html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
+'	
+				</ul>
+			</li>
+
+			<li id="InformationsPratiquesTitre"><a href="./spip.php?page=page&id_rubrique=20">Informations pratiques</a>
+				' .
+interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'20','<ul>','<ul class="MenuCache">')) .
+'
+					' .
+BOUCLE_sousrubrique20html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
+'	
+				</ul>
+			</li>
+
 		</ul>
+
+		<div id="logo">
+			<a href="http://www.utc.fr"><img src="squelettes/css/images/logo_utc.png" alt= "UTC"></img></a>
+		</div>
 	</nav>
+
 	<section id="content">
 		' .
 BOUCLE_rubriquehtml_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .

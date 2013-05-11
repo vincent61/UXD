@@ -1,43 +1,205 @@
 /* menu */
-#menu{
+@font-face {
+	font-family: "DIN-Regular";
+	src: url('./fonts/DINRg___.ttf');
+}
+@font-face {
+	font-family: "DIN-Bold";
+	src: url('./fonts/DINBd___.ttf');
+}
+#menu
+{
+	position: fixed; top:0px; bottom:0px;
 	display: inline-block;
-	width:200px;
+	width:280px;
 	vertical-align: top;
+	background-color: rgb(194,190,190);
+	font-family: "DIN-Bold", "Arial";
+	font-weight: bold;
 }
 
-#menu a, #menu a:visited{
+#menu a, #menu a:visited
+{
 	text-decoration: none;
-	color:black;
-}
-#menu a:hover{
-	text-decoration: underline;
+	color:white;
 }
 
-#menu ul{
+#menu ul
+{
 	padding:0px;
+	margin:0px;
 }
 
-#menu line-height: {
+
+#menu>ul>li
+{
+	font-variant: small-caps;
 	list-style: none;
-	height: 20px;
-	border:1px solid #666;
-	border-bottom: none;
-	background-color: #FFCC00;
-	padding:3px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
 }
 
-#menu #last_menu{
-	border-bottom:1px solid #666;
+#menu>ul>li:hover ul
+{
+	display: block;
 }
+
+#menu>ul>li>ul
+{
+	padding-top: 10px;
+	width: 280px;
+	height:140px;
+}
+
+#menu ul li ul li
+{
+	list-style: none;
+	font-variant: normal;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	text-indent : 40px;
+}
+
+#menu>ul>li>a
+{
+	width: 100%;
+	display: inline-block;
+	height: 30px;
+	line-height: 26px;
+}
+
+#UXD
+{
+	color: #FFD90F;
+	line-height:50px;
+	font-size: 35px;
+	text-align: center;
+}
+
+#UXD a, #UXD a:visited
+{
+	color: #FFD90F;
+}
+
+.MenuCache
+{
+	display:none;
+}
+
+
+#EnseignementTitre>a
+{
+	background-color: rgb(16,106,207);
+}
+#EnseignementTitre>ul
+{
+	background-image: url("images/enseignement.jpg");
+}
+
+
+#InternationalTitre>a
+{
+	background-color: rgb(43,144,38);
+}
+#InternationalTitre>ul
+{
+	background-image: url("images/enseignement.jpg");
+}
+
+
+#MetiersStagesTitre>a
+{
+	background-color: rgb(228,91,2);
+}
+#MetiersStagesTitre>ul
+{
+	background-image: url("images/enseignement.jpg");
+}
+
+
+#EquipesRechercheTitre>a
+{
+	background-color: rgb(255,151,2);
+}
+#EquipesRechercheTitre>ul
+{
+	background-image: url("images/enseignement.jpg");
+}
+
+
+#ProjetsTitre>a
+{
+	background-color: rgb(208,49,53);
+}
+#ProjetsTitre>ul
+{
+	background-image: url("images/enseignement.jpg");
+}
+
+
+#InformationsPratiquesTitre>a
+{
+	background-color: rgb(3,173,237);
+}
+#InformationsPratiquesTitre>ul
+{
+	background-image: url("images/enseignement.jpg");}
+
+
+
+#menu #logo a img
+{
+	width: 160px;
+	height: 55px;
+	vertical-align: middle;
+}
+
+#menu #logo
+{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
 
 
 /* contenu */
-#content{
+#content
+{
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 50px;
+	margin-left: 280px;
+	margin-top: 20px;
+	padding-left:70px;
+	width:720px;
+	font-family: "DIN-Regular", "Arial";
+
 }
 
-h1{color: red;}
-h2{color: #FFCC00;}
-h3{color: #222;}
+h1
+{
+	font-family: "DIN-Bold", "Arial";
+	font-size: 36px; 
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+h2
+{
+	margin-top: 20px;
+}
+
+h3
+{
+	margin-top: 10px;
+}
+
+#ContenuTexte
+{
+	font-family: "DIN-Regular", "Arial";
+	text-align: justify;
+	margin-top: 5px
+}

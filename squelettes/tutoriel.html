@@ -1,0 +1,20 @@
+<BOUCLE_rubrique(RUBRIQUES){id_rubrique}>
+<h1>#TITRE</h1>
+
+<BOUCLE_article(ARTICLES){id_rubrique}{par date}{inverse}{0,10}>
+<a href="#URL_ARTICLE">#TITRE</a><br/>
+</BOUCLE_article>
+
+[(#TEXTE|justifier)]
+</BOUCLE_rubrique>
+
+<FORM ACTION="#URL_PAGE{article}" METHOD="get">
+	
+	<SELECT NAME="id_article">
+		<BOUCLE_menu_articles(ARTICLES) {id_rubrique} {par titre}>
+		<OPTION VALUE="#ID_ARTICLE">#TITRE</OPTION>
+		</BOUCLE_menu_articles>
+	</SELECT>
+
+	<INPUT TYPE="submit" NAME="Valider" VALUE="Afficher l'article">
+</FORM>

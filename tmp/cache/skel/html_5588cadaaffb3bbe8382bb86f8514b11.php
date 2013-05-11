@@ -2,13 +2,13 @@
 
 /*
  * Squelette : ../prive/formulaires/editer_logo.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:49 GMT
+ * Compile :   Wed, 08 May 2013 10:04:17 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/formulaires/editer_logo.html
-// Temps de compilation total: 5.544 ms
+// Temps de compilation total: 8.906 ms
 //
 
 function html_5588cadaaffb3bbe8382bb86f8514b11($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

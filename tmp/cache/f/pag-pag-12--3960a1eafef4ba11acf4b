@@ -1,0 +1,170 @@
+a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";s:20:"squelettes/page.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"f/pag-pag-12--3960a1eafef4ba11acf4b";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:5335:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+<title>User eXperience Design</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="squelettes/css/reset.css" type="text/css" />
+<link rel="stylesheet" href="squelettes/css/page.css" type="text/css" />
+</head>
+
+<body class="pas_surlignable page_sommaire">
+	<nav id="menu">
+		<div id="UXD"><a href="/UXD">UXD</a></div>
+		<ul>
+			<li id="EnseignementTitre"><a href="UXD/UXD/spip.php?page=page&id_rubrique=1">Enseignement</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=1#sousRub3">Master 1 - S1</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=1#sousRub4">Master 1 - S2</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=1#sousRub24">Master 2 - S1</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=1#sousRub25">Master 2 - S2</a>
+						</li>
+					
+				</ul>
+			</li>
+
+			<li id="InternationalTitre"><a href="UXD/UXD/spip.php?page=page&id_rubrique=2">International</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=2#sousRub5">Partenaires</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=2#sousRub6">Intensive program</a>
+						</li>
+					
+				</ul>
+			</li>
+
+			<li id="MetiersStagesTitre"><a href="UXD/UXD/spip.php?page=page&id_rubrique=7">Métiers et Stages</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=7#sousRub8">Modalités de stage</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=7#sousRub9">Exemples de stages effectués</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=7#sousRub10">Types de métiers visés</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=7#sousRub11">Exemples de métiers possibles</a>
+						</li>
+						
+				</ul>
+			</li>
+
+			<li id="EquipesRechercheTitre"><a href="UXD/UXD/spip.php?page=page&id_rubrique=12">Equipes de recherche</a>
+				<ul>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=12#sousRub13">Costech</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=12#sousRub14">Heudiasyc</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=12#sousRub15">ODIC</a>
+						</li>
+						
+				</ul>
+			</li>
+
+			<li id="ProjetsTitre"><a href="UXD/UXD/spip.php?page=page&id_rubrique=16">Projets</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=16#sousRub17">Master 1</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=16#sousRub18">Master 2</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=16#sousRub19">Dépôt de projets réalisés</a>
+						</li>
+						
+				</ul>
+			</li>
+
+			<li id="InformationsPratiquesTitre"><a href="UXD/UXD/spip.php?page=page&id_rubrique=20">Informations pratiques</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=20#sousRub21">Pour candidater</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=20#sousRub22">FAQ</a>
+						</li>
+					
+						<li>
+							<a href="/UXD/spip.php?page=page&id_rubrique=20#sousRub23">Contacts</a>
+						</li>
+						
+				</ul>
+			</li>
+
+		</ul>
+
+		<div id="logo">
+			<a href="http://www.utc.fr"><img src="squelettes/css/images/logo_utc.png" alt= "UTC"></img></a>
+		</div>
+	</nav>
+
+	<section id="content">
+		
+			<h1>Equipes de recherche</h1>
+			
+				<h2 id="sousRub13">Costech</h2>
+				
+					<h3>Explication ..</h3>
+					<b></b>
+					<div id="ContenuTexte"><p>Explication ..</p></div></br>
+				
+			
+				<h2 id="sousRub14">Heudiasyc</h2>
+				
+					<h3>Explication ...</h3>
+					<b></b>
+					<div id="ContenuTexte"><p>Explication ...</p></div></br>
+				
+			
+				<h2 id="sousRub15">ODIC</h2>
+				
+					<h3>Explication ..</h3>
+					<b></b>
+					<div id="ContenuTexte"><p>Explication ..</p></div></br>
+				
+			
+		
+	<section>
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:4:"page";s:11:"id_rubrique";i:12;s:4:"date";s:19:"2013-05-11 17:12:51";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-11 17:12:51";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368292371;s:2:"gz";b:0;}

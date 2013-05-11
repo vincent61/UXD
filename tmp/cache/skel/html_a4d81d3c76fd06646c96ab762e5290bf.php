@@ -2,8 +2,8 @@
 
 /*
  * Squelette : ../prive/squelettes/extra/article.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 10:13:07 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:56 GMT
+ * Compile :   Wed, 08 May 2013 10:05:10 GMT
  * Boucles :   _extra
  */ 
 
@@ -75,7 +75,7 @@ vide($Pile['vars'][(string)'where'] = concat('id_article!=',$Pile[$SP]['id_artic
 
 //
 // Fonction principale du squelette ../prive/squelettes/extra/article.html
-// Temps de compilation total: 2.101 ms
+// Temps de compilation total: 3.140 ms
 //
 
 function html_a4d81d3c76fd06646c96ab762e5290bf($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

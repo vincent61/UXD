@@ -2,13 +2,13 @@
 
 /*
  * Squelette : ../plugins-dist/medias/prive/objets/editer/colonne_document.html
- * Date :      Wed, 17 Apr 2013 16:48:50 GMT
- * Compile :   Fri, 10 May 2013 10:13:18 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:45 GMT
+ * Compile :   Wed, 08 May 2013 10:04:50 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../plugins-dist/medias/prive/objets/editer/colonne_document.html
-// Temps de compilation total: 1.695 ms
+// Temps de compilation total: 7.491 ms
 //
 
 function html_b547474b69bed9a6f3b9d813d3130108($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes-dist/inclure/nav.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 09:12:22 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:08 GMT
+ * Compile :   Fri, 10 May 2013 18:49:02 GMT
  * Boucles :   _nav
  */ 
 
@@ -68,7 +68,7 @@ interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, 
 
 //
 // Fonction principale du squelette squelettes-dist/inclure/nav.html
-// Temps de compilation total: 1.442 ms
+// Temps de compilation total: 2.281 ms
 //
 
 function html_71110a4d981e8cd60fa6e0a4839d2215($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

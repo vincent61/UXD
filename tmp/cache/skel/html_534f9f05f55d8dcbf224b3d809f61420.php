@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes-dist/inclure/navsub.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 09:12:22 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:08 GMT
+ * Compile :   Fri, 10 May 2013 18:49:02 GMT
  * Boucles :   _re, _test_expose, _sous_rubriques, _rubriques, _secteur
  */ 
 
@@ -279,7 +279,7 @@ function BOUCLE_secteurhtml_534f9f05f55d8dcbf224b3d809f61420(&$Cache, &$Pile, &$
 
 //
 // Fonction principale du squelette squelettes-dist/inclure/navsub.html
-// Temps de compilation total: 5.200 ms
+// Temps de compilation total: 5.433 ms
 //
 
 function html_534f9f05f55d8dcbf224b3d809f61420($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

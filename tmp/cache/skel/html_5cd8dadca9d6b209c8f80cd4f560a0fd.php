@@ -2,13 +2,13 @@
 
 /*
  * Squelette : prive/formulaires/menu_lang.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 12:57:20 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:49 GMT
+ * Compile :   Wed, 08 May 2013 09:33:49 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette prive/formulaires/menu_lang.html
-// Temps de compilation total: 1.196 ms
+// Temps de compilation total: 1.393 ms
 //
 
 function html_5cd8dadca9d6b209c8f80cd4f560a0fd($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

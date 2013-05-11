@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes-dist/formulaires/recherche.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 09:12:22 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:08 GMT
+ * Compile :   Fri, 10 May 2013 18:49:02 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes-dist/formulaires/recherche.html
-// Temps de compilation total: 0.932 ms
+// Temps de compilation total: 1.514 ms
 //
 
 function html_8ff0e2d4600fa85d9c394546782741eb($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

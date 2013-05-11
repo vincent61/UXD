@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes-dist/inclure/footer.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 09:12:22 GMT
+ * Date :      Sat, 27 Apr 2013 18:45:08 GMT
+ * Compile :   Fri, 10 May 2013 18:49:02 GMT
  * Boucles :   _annee
  */ 
 
@@ -55,7 +55,7 @@ quete_condition_postdates('articles.date',''));
 
 //
 // Fonction principale du squelette squelettes-dist/inclure/footer.html
-// Temps de compilation total: 6.531 ms
+// Temps de compilation total: 4.528 ms
 //
 
 function html_aac0dc40e7c3ce2b6431800e1936f31f($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

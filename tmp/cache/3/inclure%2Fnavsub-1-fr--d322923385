@@ -1,0 +1,17 @@
+a:11:{s:9:"squelette";s:37:"html_534f9f05f55d8dcbf224b3d809f61420";s:6:"source";s:35:"squelettes-dist/inclure/navsub.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"3/inclure%2Fnavsub-1-fr--d322923385";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:154:"
+
+
+<div class="menu menu_rubriques">
+	<h2>Enseignements</h2>
+	<ul>
+	
+		<li>
+			<a href="spip.php?rubrique3">Semestre M1</a>
+			
+		</li>
+	
+
+	</ul>
+</div>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:11:"id_rubrique";s:1:"1";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-08 15:02:15";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-08 15:02:15";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368025335;s:2:"gz";b:0;}

@@ -1,9 +1,9 @@
 <?php
 
 /*
- * Squelette : ../squelettes-dist/modeles/lesauteurs.html
- * Date :      Wed, 17 Apr 2013 16:47:58 GMT
- * Compile :   Fri, 10 May 2013 10:13:55 GMT
+ * Squelette : squelettes-dist/modeles/lesauteurs.html
+ * Date :      Sat, 27 Apr 2013 18:45:08 GMT
+ * Compile :   Wed, 08 May 2013 13:53:25 GMT
  * Boucles :   _auteurs
  */ 
 
@@ -36,7 +36,7 @@ quete_condition_statut('auteurs.statut','!5poubelle','!5poubelle',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('../squelettes-dist/modeles/lesauteurs.html','html_d55455d94f119a45eec6b1a1e281c6c1','_auteurs',9,$GLOBALS['spip_lang'])
+		array('squelettes-dist/modeles/lesauteurs.html','html_d55455d94f119a45eec6b1a1e281c6c1','_auteurs',9,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	$SP++;
@@ -58,8 +58,8 @@ interdire_scripts(typo(supprimer_numero($Pile[$SP]['nom']), "TYPO", $connect, $P
 }
 
 //
-// Fonction principale du squelette ../squelettes-dist/modeles/lesauteurs.html
-// Temps de compilation total: 6.737 ms
+// Fonction principale du squelette squelettes-dist/modeles/lesauteurs.html
+// Temps de compilation total: 7.694 ms
 //
 
 function html_d55455d94f119a45eec6b1a1e281c6c1($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -73,6 +73,6 @@ function html_d55455d94f119a45eec6b1a1e281c6c1($Cache, $Pile, $doublons=array(),
 ' .
 BOUCLE_auteurshtml_d55455d94f119a45eec6b1a1e281c6c1($Cache, $Pile, $doublons, $Numrows, $SP));
 
-	return analyse_resultat_skel('html_d55455d94f119a45eec6b1a1e281c6c1', $Cache, $page, '../squelettes-dist/modeles/lesauteurs.html');
+	return analyse_resultat_skel('html_d55455d94f119a45eec6b1a1e281c6c1', $Cache, $page, 'squelettes-dist/modeles/lesauteurs.html');
 }
 ?>

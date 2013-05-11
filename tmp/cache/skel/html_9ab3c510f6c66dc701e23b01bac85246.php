@@ -2,13 +2,13 @@
 
 /*
  * Squelette : prive/formulaires/inc-logo_auteur.html
- * Date :      Wed, 17 Apr 2013 16:32:00 GMT
- * Compile :   Fri, 10 May 2013 12:57:27 GMT
+ * Date :      Sat, 27 Apr 2013 18:44:49 GMT
+ * Compile :   Wed, 08 May 2013 09:33:49 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette prive/formulaires/inc-logo_auteur.html
-// Temps de compilation total: 5.263 ms
+// Temps de compilation total: 2.054 ms
 //
 
 function html_9ab3c510f6c66dc701e23b01bac85246($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

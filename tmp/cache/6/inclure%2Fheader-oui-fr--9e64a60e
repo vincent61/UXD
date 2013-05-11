@@ -1,4 +1,0 @@
-a:11:{s:9:"squelette";s:37:"html_52dc69e75e354d1386d61f031577ac78";s:6:"source";s:35:"squelettes-dist/inclure/header.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"6/inclure%2Fheader-oui-fr--9e64a60e";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:72:"<div class="clearfix header">
-	<h1 id="logo">Mon site SPIP</h1>
-	
-</div>";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"home";s:3:"oui";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-10 11:12:21";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-10 11:12:21";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368177141;s:2:"gz";b:0;}
