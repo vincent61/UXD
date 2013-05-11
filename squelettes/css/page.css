@@ -105,7 +105,7 @@
 }
 #InternationalTitre>ul
 {
-	background-image: url("images/enseignement.jpg");
+	background-image: url("images/international.jpg");
 }
 
 
@@ -115,7 +115,7 @@
 }
 #MetiersStagesTitre>ul
 {
-	background-image: url("images/enseignement.jpg");
+	background-image: url("images/metiersStages.jpg");
 }
 
 
@@ -125,7 +125,7 @@
 }
 #EquipesRechercheTitre>ul
 {
-	background-image: url("images/enseignement.jpg");
+	background-image: url("images/equipesRecherche.jpg");
 }
 
 
@@ -135,7 +135,7 @@
 }
 #ProjetsTitre>ul
 {
-	background-image: url("images/enseignement.jpg");
+	background-image: url("images/projets.jpg");
 }
 
 
@@ -145,7 +145,7 @@
 }
 #InformationsPratiquesTitre>ul
 {
-	background-image: url("images/enseignement.jpg");}
+	background-image: url("images/informationsPratiques.jpg");}
 
 
 
