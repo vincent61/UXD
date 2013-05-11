@@ -10,24 +10,144 @@
 <title>[(#NOM_SITE_SPIP|textebrut)][ - (#SLOGAN_SITE_SPIP|textebrut)]</title>
 [<meta name="description" content="(#DESCRIPTIF_SITE_SPIP|couper{150}|textebrut)" />]
 [<link rel="stylesheet" href="(#CHEMIN{css/sommaire.css}|direction_css)" type="text/css" />]
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ <script>
+    $(function () { 
+    $('.rubriqueEnseignement .noire').stop(true, true).slideUp(0);
+    $('.rubriqueInternational .noire').stop(true, true).slideUp(0);
+    $('.rubriqueMetiersStages .noire').stop(true, true).slideUp(0);
+    $('.rubriqueEquipesRecherche .noire').stop(true, true).slideUp(0);
+    $('.rubriqueProjets .noire').stop(true, true).slideUp(0);
+    $('.rubriqueInformationsPratiques .noire').stop(true, true).slideUp(0);
 
+    $('.rubriqueEnseignement').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueEnseignement .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueEnseignement .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+
+    $(function () {  
+    $('.rubriqueInternational').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueInternational .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueInternational .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+    $(function () {  
+
+    $('.rubriqueMetiersStages').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueMetiersStages .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueMetiersStages .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $('.rubriqueEquipesRecherche').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueEquipesRecherche .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueEquipesRecherche .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $('.rubriqueProjets').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueProjets .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueProjets .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+    $(function () {  
+
+    $('.rubriqueInformationsPratiques').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueInformationsPratiques .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueInformationsPratiques .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+
+        </script>
 </head>
 
 <body class="pas_surlignable page_sommaire">
 <div class="page">
 
-	
 	<div class="main">
-
-    <div id="rubriques">
-      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=1">Enseignement</a></div>
-      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=2">International</a></div>
-      <div class="rubrique">Métiers et Stages</div>
-      <div class="rubrique">Equipes de recherche</div>
-      <div class="rubrique">Projet</div>
-      <div class="rubrique">Informations Pratiques</div>
+        
+    <div id="header">
+        <h1><span>U</span>ser e<span>X</span>perience <span>D</span>esign</h1> 
+        <div class="langue">Français</div>
     </div>
-
+        
+    <div id="rubriques">
+        <a class="rubriqueEnseignement" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
+              <div class="titre"><span>E</span>NSEIGNEMENT</div>
+             <img src="./squelettes/images/enseignement.png"  width="290" height="157">
+              <img class="noire" src="./squelettes/images/noire.png"width="290" >
+        </a>
+        
+        <a class="rubriqueInternational" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
+                <div class="titre"><span>I</span>NTERNATIONAL</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"width="290">
+        </a>
+        
+        <a class="rubriqueMetiersStages" href="#">
+                <div class="titre"><span>M</span>ETIERS et <span>S</span>TAGE</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueEquipesRecherche" href="#">
+                <div class="titre"><span>E</span>QUIPES de <span>R</span>ECHERCHE</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueProjets" href="#">
+                <div class="titre"><span>P</span>ROJETS</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueInformationsPratiques" href="#">
+                <div class="titre"><span>I</span>NFORMATIONS <span>P</span>RATIQUES</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+    </div>
+    <div id="footer"> 
+        <div class="bienvenue"> 
+            Mot de Bienvenue        
+        </div>
+         <div class="logoUTC"> 
+             <img src="./squelettes/images/logo_UTC.jpg" width="163" height="57">
+         </div>
+        
+    </div>
 	</div><!--.main-->	
 	
 </div><!--.page-->

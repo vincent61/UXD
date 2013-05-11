@@ -1,15 +1,302 @@
 /* menu */
+.noire{
+    opacity:0.4;
+
+}
 .main{
 	width:1000px;
 	margin:auto;
-	margin-top:100px;
+	margin-top:30px;
 }
 
-.rubrique{
-	display: inline-block;
-	width:290px; height:200px;
-	border:1px solid black;
-	margin: 15px;
-	text-align: center;
-	background-color: #FFCC00;
+h1{
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 20;
+    font-size: 40px;
+    font-family: "DIN-Black", sans-serif;
+    color: #63656a;
+    text-shadow: 5px 5px 4px rgba(150, 150, 150, 0.31);
 }
+
+h1 span
+{
+    color: #ffce00;
+}
+
+.langue
+{position:absolute;
+    left:955px;
+    top:80px;
+    display: inline-block;
+    font-family: "DIN-Black", sans-serif;
+    font-size: 12pt;
+    color: #ff4e00;
+
+}
+
+#rubriques{
+    margin-bottom:30px; 
+}
+
+.rubriqueEnseignement{
+    width:290px; height:187px;
+	margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}
+.rubriqueEnseignement .titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Medium", sans-serif;
+    font-size: 14pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #4A80BC 0%, #0C57AC 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #4A80BC 0%, #0C57AC 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #4A80BC 0%, #0C57AC 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4A80BC), color-stop(1, #0C57AC));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #4A80BC 0%, #0C57AC 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #4A80BC 0%, #0C57AC 100%);
+}
+
+.rubriqueEnseignement .titre span{
+    font-size: 120%;
+}
+.rubriqueEnseignement img{
+    position: absolute;
+}
+
+
+.rubriqueInternational{
+	width:290px; height:187px;
+	margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}
+
+.rubriqueInternational .titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Medium", sans-serif;
+    font-size: 14pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+    
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #569C53 0%, #298F24 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #569C53 0%, #298F24 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #569C53 0%, #298F24 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #569C53), color-stop(1, #298F24));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #569C53 0%, #298F24 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #569C53 0%, #298F24 100%);
+}
+
+.rubriqueInternational span{
+    font-size: 120%;
+}
+.rubriqueInternational img{
+    position: absolute;
+}
+
+.rubriqueMetiersStages{
+	width:290px; height:187px;
+	margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}
+.rubriqueMetiersStages .titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Medium", sans-serif;
+    font-size: 14pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #E45B00 0%, #E45C27 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #E45B00 0%, #E45C27 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #E45B00 0%, #E45C27 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #E45B00), color-stop(1, #E45C27));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #E45B00 0%, #E45C27 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #E45B00 0%, #E45C27 100%);
+}
+
+.rubriqueMetiersStages span{
+    font-size: 120%;
+}
+.rubriqueMetiersStages img{
+    position: absolute;
+}
+
+
+.rubriqueEquipesRecherche{
+	width:290px; height:187px;
+	margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}
+.rubriqueEquipesRecherche .titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Medium", sans-serif;
+    font-size: 14pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #FEA628 0%, #FF9600 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #FEA628 0%, #FF9600 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #FEA628 0%, #FF9600 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FEA628), color-stop(1, #FF9600));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #FEA628 0%, #FF9600 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #FEA628 0%, #FF9600 100%);
+}
+.rubriqueEquipesRecherche span{
+    font-size: 120%;
+}
+.rubriqueEquipesRecherche img{
+    position: absolute;
+}
+
+.rubriqueProjets{
+	width:290px; height:187px;
+	margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}
+.rubriqueProjets .titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Medium", sans-serif;
+    font-size: 14pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #E56467 0%, #F13C40 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #E56467 0%, #F13C40 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #E56467 0%, #F13C40 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #E56467), color-stop(1, #F13C40));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #E56467 0%, #F13C40 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #E56467 0%, #F13C40 100%);
+}
+.rubriqueProjets span{
+    font-size: 120%;
+}
+.rubriqueProjets img{
+    position: absolute;
+}
+
+.rubriqueInformationsPratiques{
+	width:290px; height:187px;
+	margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}
+.rubriqueInformationsPratiques .titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Medium", sans-serif;
+    font-size: 14pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+    
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #3FBEEE 0%, #00ACED 100%);
+    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #3FBEEE 0%, #00ACED 100%);
+    
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #3FBEEE 0%, #00ACED 100%);
+    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3FBEEE), color-stop(1, #00ACED));
+    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #3FBEEE 0%, #00ACED 100%);
+    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #3FBEEE 0%, #00ACED 100%);
+}
+
+.rubriqueInformationsPratiques span{
+    font-size: 120%;
+}
+
+.rubriqueInformationsPratiques img{
+    position: absolute;
+}
+
+.logoUTC{
+}
+
+.bienvenue{
+    text-align:center;
+    font-family: "DIN-Black", sans-serif;
+    font-size: 20pt;
+    color: #ff4e00;
+    text-shadow: 5px 5px 4px rgba(150, 150, 150, 0.41);
+}
+
