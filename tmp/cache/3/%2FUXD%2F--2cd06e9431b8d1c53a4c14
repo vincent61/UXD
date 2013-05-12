@@ -1,4 +1,4 @@
-a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"3/%2FUXD%2F--2cd06e9431b8d1c53a4c14";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1719:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"3/%2FUXD%2F--2cd06e9431b8d1c53a4c14";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:6962:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
 <!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
 <!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
@@ -8,28 +8,156 @@ a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";
 <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
 <title>User eXperience Design</title>
 
+<link rel="stylesheet" href="squelettes/css/reset.css" type="text/css" />
 <link rel="stylesheet" href="squelettes/css/sommaire.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+ <script>
+    $(function () { 
+    $('.rubriqueEnseignement .noire').stop(true, true).slideUp(0);
+    $('.rubriqueInternational .noire').stop(true, true).slideUp(0);
+    $('.rubriqueMetiersStages .noire').stop(true, true).slideUp(0);
+    $('.rubriqueEquipesRecherche .noire').stop(true, true).slideUp(0);
+    $('.rubriqueProjets .noire').stop(true, true).slideUp(0);
+    $('.rubriqueInformationsPratiques .noire').stop(true, true).slideUp(0);
 
+    $('.rubriqueEnseignement').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueEnseignement .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueEnseignement .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+
+    $(function () {  
+    $('.rubriqueInternational').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueInternational .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueInternational .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+    $(function () {  
+
+    $('.rubriqueMetiersStages').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueMetiersStages .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueMetiersStages .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $('.rubriqueEquipesRecherche').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueEquipesRecherche .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueEquipesRecherche .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $('.rubriqueProjets').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueProjets .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueProjets .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+    $(function () {  
+
+    $('.rubriqueInformationsPratiques').hover(function () {
+    clearTimeout($.data(this, 'timer'));
+    $('.rubriqueInformationsPratiques .noire').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+    $('.rubriqueInformationsPratiques .noire').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+
+        </script>
 </head>
 
 <body class="pas_surlignable page_sommaire">
 <div class="page">
 
-	
 	<div class="main">
-
-    <div id="rubriques">
-      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=1">Enseignement</a></div>
-      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=2">International</a></div>
-      <div class="rubrique">Métiers et Stages</div>
-      <div class="rubrique">Equipes de recherche</div>
-      <div class="rubrique">Projet</div>
-      <div class="rubrique">Informations Pratiques</div>
+        
+    <div id="header">
+        <h1><span>U</span>ser e<span>X</span>perience <span>D</span>esign</h1> 
+        <div class="langue">Français</div>
     </div>
-
+        
+    <div id="rubriques">
+        <a class="rubriqueEnseignement gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
+              <div class="titre"><span>E</span>NSEIGNEMENT</div>
+             <img src="./squelettes/images/enseignement.png"  width="290" height="157">
+              <img class="noire" src="./squelettes/images/noire.png"width="290" >
+        </a>
+        
+        <a class="rubriqueInternational gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
+                <div class="titre"><span>I</span>NTERNATIONAL</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"width="290">
+        </a>
+        
+        <a class="rubriqueMetiersStages gradient" href="#">
+                <div class="titre"><span>M</span>ETIERS et <span>S</span>TAGE</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueEquipesRecherche gradient" href="#">
+                <div class="titre"><span>E</span>QUIPES de <span>R</span>ECHERCHE</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueProjets gradient" href="#">
+                <div class="titre"><span>P</span>ROJETS</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueInformationsPratiques gradient" href="#">
+                <div class="titre"><span>I</span>NFORMATIONS <span>P</span>RATIQUES</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+    </div>
+    <div id="footer"> 
+        <div class="bienvenue"> 
+            Mot de Bienvenue        
+        </div>
+         <div class="logoUTC"> 
+             <img src="./squelettes/images/logo_UTC.jpg" width="163" height="57">
+         </div>
+        
+    </div>
 	</div><!--.main-->	
 	
 </div><!--.page-->
 </body>
 </html>
-";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2013-05-11 18:47:09";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-11 18:47:09";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368298029;s:2:"gz";b:0;}
+";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2013-05-12 10:37:12";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-12 10:37:12";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368355032;s:2:"gz";b:0;}

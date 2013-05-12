@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/sommaire.html
- * Date :      Sat, 11 May 2013 17:04:04 GMT
- * Compile :   Sat, 11 May 2013 17:04:55 GMT
+ * Date :      Sun, 12 May 2013 10:34:44 GMT
+ * Compile :   Sun, 12 May 2013 10:37:12 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/sommaire.html
-// Temps de compilation total: 3.739 ms
+// Temps de compilation total: 5.532 ms
 //
 
 function html_9619b9738af3f9f47eca3349482c6419($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -93,28 +93,160 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
 		'') .
 '
 ' .
+(($t1 = strval(interdire_scripts(direction_css(find_in_path('css/reset.css')))))!=='' ?
+		('<link rel="stylesheet" href="' . $t1 . '" type="text/css" />') :
+		'') .
+'
+' .
 (($t1 = strval(interdire_scripts(direction_css(find_in_path('css/sommaire.css')))))!=='' ?
 		('<link rel="stylesheet" href="' . $t1 . '" type="text/css" />') :
 		'') .
 '
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+ <script>
+    $(function () { 
+    $(\'.rubriqueEnseignement .noire\').stop(true, true).slideUp(0);
+    $(\'.rubriqueInternational .noire\').stop(true, true).slideUp(0);
+    $(\'.rubriqueMetiersStages .noire\').stop(true, true).slideUp(0);
+    $(\'.rubriqueEquipesRecherche .noire\').stop(true, true).slideUp(0);
+    $(\'.rubriqueProjets .noire\').stop(true, true).slideUp(0);
+    $(\'.rubriqueInformationsPratiques .noire\').stop(true, true).slideUp(0);
 
+    $(\'.rubriqueEnseignement\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'.rubriqueEnseignement .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'.rubriqueEnseignement .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+
+    $(function () {  
+    $(\'.rubriqueInternational\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'.rubriqueInternational .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'.rubriqueInternational .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+    $(function () {  
+
+    $(\'.rubriqueMetiersStages\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'.rubriqueMetiersStages .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'.rubriqueMetiersStages .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $(\'.rubriqueEquipesRecherche\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'.rubriqueEquipesRecherche .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'.rubriqueEquipesRecherche .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $(\'.rubriqueProjets\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'.rubriqueProjets .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'.rubriqueProjets .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+    $(function () {  
+
+    $(\'.rubriqueInformationsPratiques\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'.rubriqueInformationsPratiques .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'.rubriqueInformationsPratiques .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+    });
+
+        </script>
 </head>
 
 <body class="pas_surlignable page_sommaire">
 <div class="page">
 
-	
 	<div class="main">
-
-    <div id="rubriques">
-      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=1">Enseignement</a></div>
-      <div class="rubrique"><a href="/UXD/spip.php?page=page&id_rubrique=2">International</a></div>
-      <div class="rubrique">Métiers et Stages</div>
-      <div class="rubrique">Equipes de recherche</div>
-      <div class="rubrique">Projet</div>
-      <div class="rubrique">Informations Pratiques</div>
+        
+    <div id="header">
+        <h1><span>U</span>ser e<span>X</span>perience <span>D</span>esign</h1> 
+        <div class="langue">Français</div>
     </div>
-
+        
+    <div id="rubriques">
+        <a class="rubriqueEnseignement gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
+              <div class="titre"><span>E</span>NSEIGNEMENT</div>
+             <img src="./squelettes/images/enseignement.png"  width="290" height="157">
+              <img class="noire" src="./squelettes/images/noire.png"width="290" >
+        </a>
+        
+        <a class="rubriqueInternational gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
+                <div class="titre"><span>I</span>NTERNATIONAL</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"width="290">
+        </a>
+        
+        <a class="rubriqueMetiersStages gradient" href="#">
+                <div class="titre"><span>M</span>ETIERS et <span>S</span>TAGE</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueEquipesRecherche gradient" href="#">
+                <div class="titre"><span>E</span>QUIPES de <span>R</span>ECHERCHE</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueProjets gradient" href="#">
+                <div class="titre"><span>P</span>ROJETS</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+        
+        <a class="rubriqueInformationsPratiques gradient" href="#">
+                <div class="titre"><span>I</span>NFORMATIONS <span>P</span>RATIQUES</div>
+                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+                <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
+        </a>
+    </div>
+    <div id="footer"> 
+        <div class="bienvenue"> 
+            Mot de Bienvenue        
+        </div>
+         <div class="logoUTC"> 
+             <img src="./squelettes/images/logo_UTC.jpg" width="163" height="57">
+         </div>
+        
+    </div>
 	</div><!--.main-->	
 	
 </div><!--.page-->
