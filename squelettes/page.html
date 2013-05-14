@@ -15,6 +15,45 @@
 [<link rel="stylesheet" href="(#CHEMIN{css/reset.css}|direction_css)" type="text/css" />]
 [<link rel="stylesheet" href="(#CHEMIN{css/page.css}|direction_css)" type="text/css" />]
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<script>
+$(document).ready(function(){
+	var timer;
+
+	$("\#back-top").hide();
+
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('\#back-top').fadeIn();
+			} else {
+				$('\#back-top').fadeOut();
+			}
+	});
+
+	// scroll body to 0px on click
+	$('#back-top a').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+	});
+
+	$('.MenuCache').parent().mouseenter( function() {
+		clearTimeout(timer);
+		var $this = $(this);
+
+		timer = setTimeout(function(){
+			$this.children('ul').stop().slideDown(500);
+		}, 100);
+	} );
+
+	$('.MenuCache').parent().mouseleave( function() {
+		clearTimeout(timer);
+		$(this).children('ul').stop().slideUp(500);
+	} );
+});
+</script>
+
 </head>
 
 <body class="pas_surlignable page_sommaire">
@@ -101,23 +140,7 @@
 			</BOUCLE_sousrubrique>
 		</BOUCLE_rubrique>
 	<section>
+
+	<div id="back-top"><a href="#">Haut de page</a></div>
 </body>
 </html>
-
-<script type='text/javascript'>
-	var old;
-
-	$('.MenuCache').parent().mouseenter( function() {
-		clearTimeout(old);
-		var $this = $(this);
-
-		old = setTimeout(function(){
-			$this.children('ul').stop().slideDown(500);
-		}, 100);
-	} );
-
-	$('.MenuCache').parent().mouseleave( function() {
-		clearTimeout(old);
-		$(this).children('ul').stop().slideUp(500);
-	} );
-</script>
