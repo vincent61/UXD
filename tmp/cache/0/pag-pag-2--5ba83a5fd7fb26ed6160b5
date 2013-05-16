@@ -1,0 +1,204 @@
+a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";s:20:"squelettes/page.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"0/pag-pag-2--5ba83a5fd7fb26ed6160b5";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:5532:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+<title>User eXperience Design</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="squelettes/css/reset.css" type="text/css" />
+<link rel="stylesheet" href="squelettes/css/page.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<script>
+$(document).ready(function(){
+	var timer;
+
+	$("#back-top").hide();
+
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+	});
+
+	// scroll body to 0px on click
+	$('#back-top a').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+	});
+
+	$('.MenuCache').parent().mouseenter( function() {
+		clearTimeout(timer);
+		var $this = $(this);
+
+		timer = setTimeout(function(){
+			$this.children('ul').stop().slideDown(500);
+		}, 100);
+	} );
+
+	$('.MenuCache').parent().mouseleave( function() {
+		clearTimeout(timer);
+		$(this).children('ul').stop().slideUp(500);
+	} );
+});
+</script>
+
+</head>
+
+<body class="pas_surlignable page_sommaire">
+	<nav id="menu">
+		<div id="UXD"><a href="./">UXD</a></div>
+		<ul>
+			<li id="EnseignementTitre"><a href="./enseignement/">Enseignement</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="./enseignement/#sousRub3">Master 1 - S1</a>
+						</li>
+					
+						<li>
+							<a href="./enseignement/#sousRub4">Master 1 - S2</a>
+						</li>
+					
+						<li>
+							<a href="./enseignement/#sousRub24">Master 2 - S1</a>
+						</li>
+					
+						<li>
+							<a href="./enseignement/#sousRub25">Master 2 - S2</a>
+						</li>
+					
+				</ul>
+			</li>
+
+			<li id="InternationalTitre"><a href="./international/">International</a>
+				<ul>
+					
+						<li>
+							<a href="./international/#sousRub5">Partenaires</a>
+						</li>
+					
+						<li>
+							<a href="./international/#sousRub6">Intensive program</a>
+						</li>
+					
+				</ul>
+			</li>
+
+			<li id="MetiersStagesTitre"><a href="./metiersStages/">Métiers et stages</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="./metiersStages/#sousRub8">Modalités de stage</a>
+						</li>
+					
+						<li>
+							<a href="./metiersStages/#sousRub9">Exemples de stages effectués</a>
+						</li>
+					
+						<li>
+							<a href="./metiersStages/#sousRub10">Types de métiers visés</a>
+						</li>
+					
+						<li>
+							<a href="./metiersStages/#sousRub11">Exemples de métiers possibles</a>
+						</li>
+						
+				</ul>
+			</li>
+
+			<li id="EquipesRechercheTitre"><a href="./equipesRecherche/">Equipes de recherche</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="./equipesRecherche/#sousRub13">Costech</a>
+						</li>
+					
+						<li>
+							<a href="./equipesRecherche/#sousRub14">Heudiasyc</a>
+						</li>
+					
+						<li>
+							<a href="./equipesRecherche/#sousRub15">ODIC</a>
+						</li>
+						
+				</ul>
+			</li>
+
+			<li id="ProjetsTitre"><a href="./projets/">Projets</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="./projets/#sousRub17">Master 1</a>
+						</li>
+					
+						<li>
+							<a href="./projets/#sousRub18">Master 2</a>
+						</li>
+					
+						<li>
+							<a href="./projets/#sousRub19">Dépôt de projets réalisés</a>
+						</li>
+						
+				</ul>
+			</li>
+
+			<li id="InformationsPratiquesTitre"><a href="./informationsPratiques/">Informations pratiques</a>
+				<ul class="MenuCache">
+					
+						<li>
+							<a href="./informationsPratiques/#sousRub21">Pour candidater</a>
+						</li>
+					
+						<li>
+							<a href="./informationsPratiques/#sousRub22">FAQ</a>
+						</li>
+					
+						<li>
+							<a href="./informationsPratiques/#sousRub23">Contacts</a>
+						</li>
+						
+				</ul>
+			</li>
+
+		</ul>
+
+		<div id="logo">
+			<a href="http://www.utc.fr"><img src="squelettes/images/logo_utc.png" alt= "UTC"></img></a>
+		</div>
+	</nav>
+
+	<section id="content">
+		
+			<h1>International</h1>
+			
+				<h2 id="sousRub5">Partenaires</h2>
+				
+					<h3>Explication</h3>
+					<b></b>
+					<div id="ContenuTexte"><p>Les partenaires sont...</p></div></br>
+				
+			
+				<h2 id="sousRub6">Intensive program</h2>
+				
+					<h3>Explication</h3>
+					<b></b>
+					<div id="ContenuTexte"><p>L&#8217;intensive program c&#8217;est...</p></div></br>
+				
+			
+		
+	<section>
+
+	<div id="back-top"><a href="#">Haut de page</a></div>
+</body>
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:4:"page";s:11:"id_rubrique";s:1:"2";s:4:"date";s:19:"2013-05-16 18:13:11";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 18:13:11";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368727991;s:2:"gz";b:0;}

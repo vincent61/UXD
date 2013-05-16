@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes/page.html
- * Date :      Thu, 16 May 2013 09:37:55 GMT
- * Compile :   Thu, 16 May 2013 09:37:58 GMT
+ * Date :      Thu, 16 May 2013 18:12:13 GMT
+ * Compile :   Thu, 16 May 2013 18:12:34 GMT
  * Boucles :   _sousrubrique1, _sousrubrique2, _sousrubrique7, _sousrubrique12, _sousrubrique16, _sousrubrique20, _article, _sousrubrique, _rubrique
  */ 
 
@@ -48,7 +48,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		$t0 .= (
 '
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=1#sousRub' .
+							<a href="./enseignement/#sousRub' .
 $Pile[$SP]['id_rubrique'] .
 '">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
@@ -104,7 +104,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		$t0 .= (
 '
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=2#sousRub' .
+							<a href="./international/#sousRub' .
 $Pile[$SP]['id_rubrique'] .
 '">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
@@ -160,7 +160,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		$t0 .= (
 '
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=7#sousRub' .
+							<a href="./metiersStages/#sousRub' .
 $Pile[$SP]['id_rubrique'] .
 '">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
@@ -216,7 +216,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		$t0 .= (
 '
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=12#sousRub' .
+							<a href="./equipesRecherche/#sousRub' .
 $Pile[$SP]['id_rubrique'] .
 '">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
@@ -272,7 +272,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		$t0 .= (
 '
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=16#sousRub' .
+							<a href="./projets/#sousRub' .
 $Pile[$SP]['id_rubrique'] .
 '">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
@@ -328,7 +328,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 		$t0 .= (
 '
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=20#sousRub' .
+							<a href="./informationsPratiques/#sousRub' .
 $Pile[$SP]['id_rubrique'] .
 '">' .
 interdire_scripts(typo(supprimer_numero($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
@@ -516,7 +516,7 @@ BOUCLE_sousrubriquehtml_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublon
 
 //
 // Fonction principale du squelette squelettes/page.html
-// Temps de compilation total: 35.587 ms
+// Temps de compilation total: 24.623 ms
 //
 
 function html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -659,7 +659,7 @@ $(document).ready(function(){
 	<nav id="menu">
 		<div id="UXD"><a href="./">UXD</a></div>
 		<ul>
-			<li id="EnseignementTitre"><a href="./spip.php?page=page&id_rubrique=1">Enseignement</a>
+			<li id="EnseignementTitre"><a href="./enseignement/">Enseignement</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'1','<ul>','<ul class="MenuCache">')) .
 '
@@ -669,7 +669,7 @@ BOUCLE_sousrubrique1html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublo
 				</ul>
 			</li>
 
-			<li id="InternationalTitre"><a href="./spip.php?page=page&id_rubrique=2">International</a>
+			<li id="InternationalTitre"><a href="./international/">International</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'2','<ul>','<ul class="MenuCache">')) .
 '
@@ -679,7 +679,7 @@ BOUCLE_sousrubrique2html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublo
 				</ul>
 			</li>
 
-			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et stages</a>
+			<li id="MetiersStagesTitre"><a href="./metiersStages/">Métiers et stages</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'7','<ul>','<ul class="MenuCache">')) .
 '
@@ -689,7 +689,7 @@ BOUCLE_sousrubrique7html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublo
 				</ul>
 			</li>
 
-			<li id="EquipesRechercheTitre"><a href="./spip.php?page=page&id_rubrique=12">Equipes de recherche</a>
+			<li id="EquipesRechercheTitre"><a href="./equipesRecherche/">Equipes de recherche</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'12','<ul>','<ul class="MenuCache">')) .
 '
@@ -699,7 +699,7 @@ BOUCLE_sousrubrique12html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doubl
 				</ul>
 			</li>
 
-			<li id="ProjetsTitre"><a href="./spip.php?page=page&id_rubrique=16">Projets</a>
+			<li id="ProjetsTitre"><a href="./projets/">Projets</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'16','<ul>','<ul class="MenuCache">')) .
 '
@@ -709,7 +709,7 @@ BOUCLE_sousrubrique16html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doubl
 				</ul>
 			</li>
 
-			<li id="InformationsPratiquesTitre"><a href="./spip.php?page=page&id_rubrique=20">Informations pratiques</a>
+			<li id="InformationsPratiquesTitre"><a href="./informationsPratiques/">Informations pratiques</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'20','<ul>','<ul class="MenuCache">')) .
 '

@@ -22,7 +22,7 @@ RewriteEngine On
 # Chez la plupart des hebergeurs il faut indiquer "RewriteBase /"
 # sinon modifiez cette ligne
 
-RewriteBase /
+RewriteBase /UXD
 
 
 # SPIP version 'php' - si vous avez d'anciennes adresses en '.php[3]',
@@ -38,7 +38,6 @@ RewriteBase /
 
 ################ REGLAGES PERSONNALISES ######################
 # Inscrivez ci-dessous vos reglages supplementaires
-
 
 
 

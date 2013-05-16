@@ -60,61 +60,61 @@ $(document).ready(function(){
 	<nav id="menu">
 		<div id="UXD"><a href="./">UXD</a></div>
 		<ul>
-			<li id="EnseignementTitre"><a href="./spip.php?page=page&id_rubrique=1">Enseignement</a>
+			<li id="EnseignementTitre"><a href="./enseignement/">Enseignement</a>
 				[(#ENV{id_rubrique}|choixsiegal{1,<ul>,<ul class="MenuCache">})]
 					<BOUCLE_sousrubrique1(RUBRIQUES){id_parent=1}>
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=1#sousRub#ID_RUBRIQUE">#TITRE</a>
+							<a href="./enseignement/#sousRub#ID_RUBRIQUE">#TITRE</a>
 						</li>
 					</BOUCLE_sousrubrique1>
 				</ul>
 			</li>
 
-			<li id="InternationalTitre"><a href="./spip.php?page=page&id_rubrique=2">International</a>
+			<li id="InternationalTitre"><a href="./international/">International</a>
 				[(#ENV{id_rubrique}|choixsiegal{2,<ul>,<ul class="MenuCache">})]
 					<BOUCLE_sousrubrique2(RUBRIQUES){id_parent=2}>
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=2#sousRub#ID_RUBRIQUE">#TITRE</a>
+							<a href="./international/#sousRub#ID_RUBRIQUE">#TITRE</a>
 						</li>
 					</BOUCLE_sousrubrique2>
 				</ul>
 			</li>
 
-			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et stages</a>
+			<li id="MetiersStagesTitre"><a href="./metiersStages/">Métiers et stages</a>
 				[(#ENV{id_rubrique}|choixsiegal{7,<ul>,<ul class="MenuCache">})]
 					<BOUCLE_sousrubrique7(RUBRIQUES){id_parent=7}>
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=7#sousRub#ID_RUBRIQUE">#TITRE</a>
+							<a href="./metiersStages/#sousRub#ID_RUBRIQUE">#TITRE</a>
 						</li>
 					</BOUCLE_sousrubrique7>	
 				</ul>
 			</li>
 
-			<li id="EquipesRechercheTitre"><a href="./spip.php?page=page&id_rubrique=12">Equipes de recherche</a>
+			<li id="EquipesRechercheTitre"><a href="./equipesRecherche/">Equipes de recherche</a>
 				[(#ENV{id_rubrique}|choixsiegal{12,<ul>,<ul class="MenuCache">})]
 					<BOUCLE_sousrubrique12(RUBRIQUES){id_parent=12}>
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=12#sousRub#ID_RUBRIQUE">#TITRE</a>
+							<a href="./equipesRecherche/#sousRub#ID_RUBRIQUE">#TITRE</a>
 						</li>
 					</BOUCLE_sousrubrique12>	
 				</ul>
 			</li>
 
-			<li id="ProjetsTitre"><a href="./spip.php?page=page&id_rubrique=16">Projets</a>
+			<li id="ProjetsTitre"><a href="./projets/">Projets</a>
 				[(#ENV{id_rubrique}|choixsiegal{16,<ul>,<ul class="MenuCache">})]
 					<BOUCLE_sousrubrique16(RUBRIQUES){id_parent=16}>
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=16#sousRub#ID_RUBRIQUE">#TITRE</a>
+							<a href="./projets/#sousRub#ID_RUBRIQUE">#TITRE</a>
 						</li>
 					</BOUCLE_sousrubrique16>	
 				</ul>
 			</li>
 
-			<li id="InformationsPratiquesTitre"><a href="./spip.php?page=page&id_rubrique=20">Informations pratiques</a>
+			<li id="InformationsPratiquesTitre"><a href="./informationsPratiques/">Informations pratiques</a>
 				[(#ENV{id_rubrique}|choixsiegal{20,<ul>,<ul class="MenuCache">})]
 					<BOUCLE_sousrubrique20(RUBRIQUES){id_parent=20}>
 						<li>
-							<a href="./spip.php?page=page&id_rubrique=20#sousRub#ID_RUBRIQUE">#TITRE</a>
+							<a href="./informationsPratiques/#sousRub#ID_RUBRIQUE">#TITRE</a>
 						</li>
 					</BOUCLE_sousrubrique20>	
 				</ul>

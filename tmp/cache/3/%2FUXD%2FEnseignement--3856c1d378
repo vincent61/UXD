@@ -1,0 +1,72 @@
+a:11:{s:9:"squelette";s:37:"html_14bbf73ca8ff14e3301003a1735c9017";s:6:"source";s:24:"squelettes-dist/404.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"3/%2FUXD%2FEnseignement--3856c1d378";}s:7:"entetes";a:4:{s:23:"Http/1.0  404 Not Found";s:0:"";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3378:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+<title>Erreur 404 - User eXperience Design</title>
+<?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes-dist/404.html','html_14bbf73ca8ff14e3301003a1735c9017','',13,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+<meta name="robots" content="none" />
+</head>
+<body class="pas_surlignable page_404">
+<div class="page">
+
+	<?php echo recuperer_fond( 'inclure/header', array('lang' => 'fr'), array("compil"=>array('squelettes-dist/404.html','html_14bbf73ca8ff14e3301003a1735c9017','',19,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+	<?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'date' => '2013-05-16 17:33:51',
+  'date_default' => true,
+  'date_redac' => '2013-05-16 17:33:51',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes-dist/404.html','html_14bbf73ca8ff14e3301003a1735c9017','',20,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+	
+	<div class="main">
+		<div class="wrapper">
+		<div class="content" id="content">
+			<p class="arbo"><a href="http://localhost/UXD/">Accueil</a> &gt; <strong class="on">Erreur</strong></p>
+	
+			<div class="cartouche">
+				<h1>Erreur 404</h1>
+			</div>
+			 
+			
+			
+			
+			
+			
+			
+			
+			
+	
+		</div><!--.content-->
+		</div><!--.wrapper-->
+	
+		<div class="aside">
+			<?php echo recuperer_fond( 'inclure/navsub', array('lang' => 'fr'), array("compil"=>array('squelettes-dist/404.html','html_14bbf73ca8ff14e3301003a1735c9017','',37,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+			<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_RECHERCHE'), array('squelettes-dist/404.html', 'html_14bbf73ca8ff14e3301003a1735c9017', '', 38, 'fr'));
+if ($lang_select) lang_select();
+?>
+		</div><!--.aside-->
+	</div><!--.main-->
+
+	<?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'date' => '2013-05-16 17:33:51',
+  'date_default' => true,
+  'date_redac' => '2013-05-16 17:33:51',
+  'date_redac_default' => true,
+),array('self' => 'Enseignement',
+	'lang' => 'fr')), array("compil"=>array('squelettes-dist/404.html','html_14bbf73ca8ff14e3301003a1735c9017','',42,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+</div><!--.page-->
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2013-05-16 17:33:51";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 17:33:51";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368725631;s:2:"gz";b:0;}

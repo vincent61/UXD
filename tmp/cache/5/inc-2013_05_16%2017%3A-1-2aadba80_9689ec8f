@@ -1,0 +1,16 @@
+a:11:{s:9:"squelette";s:37:"html_aac0dc40e7c3ce2b6431800e1936f31f";s:6:"source";s:35:"squelettes-dist/inclure/footer.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:35:"5/inc-2013_05_16%2017%3A-1-2aadba80";s:7:"session";s:8:"9689ec8f";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:938:"<div class="footer clearfix">
+	<p class="colophon">
+		2013-2013 User eXperience Design
+		<br /><a rel="contents" href="spip.php?page=plan">Plan du site</a>
+		 | <a href="ecrire/">Espace privé</a>
+		  | <a href="<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/url_logout.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_URL_LOGOUT_dyn(''), array('squelettes-dist/inclure/footer.html', 'html_aac0dc40e7c3ce2b6431800e1936f31f', '', 5, 'fr'));
+if ($lang_select) lang_select();
+?>" rel="nofollow">Se déconnecter</a> | 
+		<a rel="nofollow" href="spip.php?page=contact">Contact</a> |
+		<a href="spip.php?page=backend" rel="alternate" title="Syndiquer tout le site">RSS&nbsp;2.0</a>
+	</p>
+	<small class="generator"><a href="http://www.spip.net/" rel="generator" title="Site réalisé avec SPIP" class="spip_out"><img src="spip.png" alt="SPIP" /></a></small>
+</div>";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"date";s:19:"2013-05-16 17:33:51";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 17:33:51";s:18:"date_redac_default";b:1;s:4:"self";s:12:"Enseignement";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1368725632;s:2:"gz";b:0;}

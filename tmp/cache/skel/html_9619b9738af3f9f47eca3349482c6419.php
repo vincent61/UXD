@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/sommaire.html
- * Date :      Thu, 16 May 2013 09:35:31 GMT
- * Compile :   Thu, 16 May 2013 09:35:40 GMT
+ * Date :      Thu, 16 May 2013 18:12:18 GMT
+ * Compile :   Thu, 16 May 2013 18:12:23 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/sommaire.html
-// Temps de compilation total: 5.588 ms
+// Temps de compilation total: 3.721 ms
 //
 
 function html_9619b9738af3f9f47eca3349482c6419($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -202,37 +202,37 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
     </div>
         
     <div id="rubriques">
-        <a id="rubriqueEnseignement" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
+        <a id="rubriqueEnseignement" class="gradient" href="./enseignement/">
               <div class="titre">Enseignement</div>
              <img src="./squelettes/images/enseignement.jpg"  width="290" height="157">
               <img class="noire" src="./squelettes/images/noire.png"width="290" >
         </a>
         
-        <a id="rubriqueInternational" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
+        <a id="rubriqueInternational" class="gradient" href="./international/">
                 <div class="titre">International</div>
                 <img src="./squelettes/images/international.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"width="290">
         </a>
         
-        <a id="rubriqueMetiersStages" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=7">
+        <a id="rubriqueMetiersStages" class="gradient" href="./metiersStages/">
                 <div class="titre">Métiers et stages</div>
                 <img src="./squelettes/images/metiersStages.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a id="rubriqueEquipesRecherche" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=12">
+        <a id="rubriqueEquipesRecherche" class="gradient" href="./equipesRecherche/">
                 <div class="titre">Equipes de recherche</div>
                 <img src="./squelettes/images/equipesRecherche.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a id="rubriqueProjets" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=16">
+        <a id="rubriqueProjets" class="gradient" href="./projets/">
                 <div class="titre">Projets</div>
                 <img src="./squelettes/images/projets.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a id="rubriqueInformationsPratiques" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=20">
+        <a id="rubriqueInformationsPratiques" class="gradient" href="./informationsPratiques/">
                 <div class="titre">Informations pratiques</div>
                 <img src="./squelettes/images/informationsPratiques.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">

@@ -1,4 +1,4 @@
-a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"3/%2FUXD%2F--2cd06e9431b8d1c53a4c14";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:7096:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"3/%2FUXD%2F--2cd06e9431b8d1c53a4c14";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:6875:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
 <!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
 <!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
@@ -110,37 +110,37 @@ a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";
     </div>
         
     <div id="rubriques">
-        <a id="rubriqueEnseignement" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
+        <a id="rubriqueEnseignement" class="gradient" href="./enseignement/">
               <div class="titre">Enseignement</div>
              <img src="./squelettes/images/enseignement.jpg"  width="290" height="157">
               <img class="noire" src="./squelettes/images/noire.png"width="290" >
         </a>
         
-        <a id="rubriqueInternational" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
+        <a id="rubriqueInternational" class="gradient" href="./international/">
                 <div class="titre">International</div>
                 <img src="./squelettes/images/international.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"width="290">
         </a>
         
-        <a id="rubriqueMetiersStages" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=7">
+        <a id="rubriqueMetiersStages" class="gradient" href="./metiersStages/">
                 <div class="titre">Métiers et stages</div>
                 <img src="./squelettes/images/metiersStages.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a id="rubriqueEquipesRecherche" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=12">
+        <a id="rubriqueEquipesRecherche" class="gradient" href="./equipesRecherche/">
                 <div class="titre">Equipes de recherche</div>
                 <img src="./squelettes/images/equipesRecherche.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a id="rubriqueProjets" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=16">
+        <a id="rubriqueProjets" class="gradient" href="./projets/">
                 <div class="titre">Projets</div>
                 <img src="./squelettes/images/projets.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a id="rubriqueInformationsPratiques" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=20">
+        <a id="rubriqueInformationsPratiques" class="gradient" href="./informationsPratiques/">
                 <div class="titre">Informations pratiques</div>
                 <img src="./squelettes/images/informationsPratiques.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
@@ -159,4 +159,4 @@ a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";
 </div><!--.page-->
 </body>
 </html>
-";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2013-05-16 09:35:40";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 09:35:40";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368696940;s:2:"gz";b:0;}
+";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2013-05-16 18:12:23";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 18:12:23";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368727943;s:2:"gz";b:0;}

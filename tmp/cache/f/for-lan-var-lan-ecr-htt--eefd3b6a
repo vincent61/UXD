@@ -201,4 +201,4 @@ a:11:{s:9:"squelette";s:37:"html_5cd8dadca9d6b209c8f80cd4f560a0fd";s:6:"source";
 	</select>
 	<noscript><p class="boutons"><input type="submit" class="submit" value="&gt;&gt;" /></p></noscript>
 </div></form>
-</div>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:3:"nom";s:15:"var_lang_ecrire";s:3:"url";s:112:"http://localhost/UXD/spip.php?action=converser&redirect=spip.php%3Fpage%3Dlogin%26url%3D%252FUXD%252Fecrire%252F";s:4:"name";s:15:"var_lang_ecrire";s:7:"default";s:2:"fr";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-16 07:54:48";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 07:54:48";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368690888;s:2:"gz";b:0;}
+</div>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:3:"nom";s:15:"var_lang_ecrire";s:3:"url";s:112:"http://localhost/UXD/spip.php?action=converser&redirect=spip.php%3Fpage%3Dlogin%26url%3D%252FUXD%252Fecrire%252F";s:4:"name";s:15:"var_lang_ecrire";s:7:"default";s:2:"fr";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-16 17:25:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 17:25:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368725158;s:2:"gz";b:0;}
