@@ -90,7 +90,7 @@
 }
 #EnseignementTitre>ul
 {
-	background-image: url("images/enseignement.jpg");
+	background-image: url("../images/enseignementNoir.jpg");
 }
 
 
@@ -100,7 +100,7 @@
 }
 #InternationalTitre>ul
 {
-	background-image: url("images/international.jpg");
+	background-image: url("../images/internationalNoir.jpg");
 }
 
 
@@ -110,7 +110,7 @@
 }
 #MetiersStagesTitre>ul
 {
-	background-image: url("images/metiersStages.jpg");
+	background-image: url("../images/metiersStagesNoir.jpg");
 }
 
 
@@ -120,7 +120,7 @@
 }
 #EquipesRechercheTitre>ul
 {
-	background-image: url("images/equipesRecherche.jpg");
+	background-image: url("../images/equipesRechercheNoir.jpg");
 }
 
 
@@ -130,7 +130,7 @@
 }
 #ProjetsTitre>ul
 {
-	background-image: url("images/projets.jpg");
+	background-image: url("../images/projetsNoir.jpg");
 }
 
 
@@ -140,7 +140,7 @@
 }
 #InformationsPratiquesTitre>ul
 {
-	background-image: url("images/informationsPratiques.jpg");}
+	background-image: url("../images/informationsPratiquesNoir.jpg");}
 
 
 

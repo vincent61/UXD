@@ -2,13 +2,13 @@
 
 /*
  * Squelette : prive/informer_auteur.html
- * Date :      Sat, 27 Apr 2013 18:44:47 GMT
- * Compile :   Wed, 08 May 2013 16:55:14 GMT
+ * Date :      Wed, 15 May 2013 18:19:34 GMT
+ * Compile :   Thu, 16 May 2013 07:54:52 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette prive/informer_auteur.html
-// Temps de compilation total: 0.571 ms
+// Temps de compilation total: 0.563 ms
 //
 
 function html_640a16ae992aa445da84f9a4f5d5b6f2($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

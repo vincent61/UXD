@@ -1,9 +1,0 @@
-a:11:{s:9:"squelette";s:37:"html_71110a4d981e8cd60fa6e0a4839d2215";s:6:"source";s:32:"squelettes-dist/inclure/nav.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"b/inc-2013_05_08%2012%3A-1-a70f7a6c";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:127:"
-<div class="nav clearfix  none" id="nav">
-	<ul>
-		
-		<li><a href="spip.php?rubrique1">Enseignements</a></li>
-		
-	</ul>
-</div>
-";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"date";s:19:"2013-05-08 12:50:56";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-08 12:50:56";s:18:"date_redac_default";b:1;s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1368017457;s:2:"gz";b:0;}

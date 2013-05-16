@@ -1,4 +1,13 @@
 /* menu */
+@font-face {
+    font-family: "DIN-Regular";
+    src: url('./fonts/DINRg___.ttf');
+}
+@font-face {
+    font-family: "DIN-Bold";
+    src: url('./fonts/DINBd___.ttf');
+}
+
 .noire{
     opacity:0.4;
 
@@ -39,21 +48,10 @@ h1 span
     margin-bottom:30px; 
 }
 
-.rubriqueEnseignement{
-    width:290px; height:187px;
-	margin: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
-    text-decoration:none; 
-    position: relative;
+#rubriqueEnseignement{
+
 }
-.rubriqueEnseignement .titre{
-    width:290px; height:30px;
-    text-align: center;
-    color:white;
-    font-family: "DIN-Medium", sans-serif;
-    font-size: 14pt;
-    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+#rubriqueEnseignement .titre{
     background: rgb(12,87,172); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjNTdhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YTgwYmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -66,31 +64,19 @@ h1 span
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c57ac', endColorstr='#4a80bc',GradientType=0 ); /* IE6-8 */
 }
 
-.rubriqueEnseignement .titre span{
+#rubriqueEnseignement .titre span{
     font-size: 120%;
 }
-.rubriqueEnseignement img{
+#rubriqueEnseignement img{
     position: absolute;
 }
 
 
-.rubriqueInternational{
-	width:290px; height:187px;
-	margin: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
-    text-decoration:none; 
-    position: relative;
+#rubriqueInternational{
+
 }
 
-.rubriqueInternational .titre{
-    width:290px; height:30px;
-    text-align: center;
-    color:white;
-    font-family: "DIN-Medium", sans-serif;
-    font-size: 14pt;
-    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
-    
+#rubriqueInternational .titre{    
     background: rgb(41,143,36); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5OGYyNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NjljNTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -104,28 +90,17 @@ h1 span
 
 }
 
-.rubriqueInternational span{
+#rubriqueInternational span{
     font-size: 120%;
 }
-.rubriqueInternational img{
+#rubriqueInternational img{
     position: absolute;
 }
 
-.rubriqueMetiersStages{
-	width:290px; height:187px;
-	margin: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
-    text-decoration:none; 
-    position: relative;
+#rubriqueMetiersStages{
+
 }
-.rubriqueMetiersStages .titre{
-    width:290px; height:30px;
-    text-align: center;
-    color:white;
-    font-family: "DIN-Medium", sans-serif;
-    font-size: 14pt;
-    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+#rubriqueMetiersStages .titre{
     background: rgb(228,91,0); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U0NWIwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNDVjMjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -139,29 +114,18 @@ h1 span
 
 }
 
-.rubriqueMetiersStages span{
+#rubriqueMetiersStages span{
     font-size: 120%;
 }
-.rubriqueMetiersStages img{
+#rubriqueMetiersStages img{
     position: absolute;
 }
 
 
-.rubriqueEquipesRecherche{
-	width:290px; height:187px;
-	margin: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
-    text-decoration:none; 
-    position: relative;
+#rubriqueEquipesRecherche{
+
 }
-.rubriqueEquipesRecherche .titre{
-    width:290px; height:30px;
-    text-align: center;
-    color:white;
-    font-family: "DIN-Medium", sans-serif;
-    font-size: 14pt;
-    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+#rubriqueEquipesRecherche .titre{
     background: rgb(254,166,40); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlYTYyOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjk2MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -174,28 +138,17 @@ h1 span
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea628', endColorstr='#ff9600',GradientType=0 ); /* IE6-8 */
 
 }
-.rubriqueEquipesRecherche span{
+#rubriqueEquipesRecherche span{
     font-size: 120%;
 }
-.rubriqueEquipesRecherche img{
+#rubriqueEquipesRecherche img{
     position: absolute;
 }
 
-.rubriqueProjets{
-	width:290px; height:187px;
-	margin: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
-    text-decoration:none; 
-    position: relative;
+#rubriqueProjets{
+
 }
-.rubriqueProjets .titre{
-    width:290px; height:30px;
-    text-align: center;
-    color:white;
-    font-family: "DIN-Medium", sans-serif;
-    font-size: 14pt;
-    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+#rubriqueProjets .titre{
     background: rgb(229,100,103); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1NjQ2NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMTNjNDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -208,29 +161,17 @@ h1 span
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e56467', endColorstr='#f13c40',GradientType=0 ); /* IE6-8 */
 
 }
-.rubriqueProjets span{
+#rubriqueProjets span{
     font-size: 120%;
 }
-.rubriqueProjets img{
+#rubriqueProjets img{
     position: absolute;
 }
 
-.rubriqueInformationsPratiques{
-	width:290px; height:187px;
-	margin: 15px;
-    display: inline-block;
-    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
-    text-decoration:none; 
-    position: relative;
+#rubriqueInformationsPratiques{
+
 }
-.rubriqueInformationsPratiques .titre{
-    width:290px; height:30px;
-    text-align: center;
-    color:white;
-    font-family: "DIN-Medium", sans-serif;
-    font-size: 14pt;
-    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
-    
+#rubriqueInformationsPratiques .titre{
     background: rgb(63,190,238); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNmYmVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGFjZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -244,11 +185,11 @@ h1 span
 
 }
 
-.rubriqueInformationsPratiques span{
+#rubriqueInformationsPratiques span{
     font-size: 120%;
 }
 
-.rubriqueInformationsPratiques img{
+#rubriqueInformationsPratiques img{
     position: absolute;
 }
 
@@ -263,3 +204,21 @@ h1 span
     text-shadow: 5px 5px 4px rgba(150, 150, 150, 0.41);
 }
 
+.titre{
+    width:290px; height:30px;
+    text-align: center;
+    color:white;
+    font-family: "DIN-Bold", sans-serif;
+    font-variant: small-caps;
+    font-size: 18pt;
+    text-shadow: 3px 4px 4px rgba(50, 50, 50, 0.61);
+}
+
+#rubriques a{
+    width:290px; height:187px;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 4px rgba(150, 150, 150, 0.5);
+    text-decoration:none; 
+    position: relative;
+}

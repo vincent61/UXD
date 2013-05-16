@@ -1,4 +1,4 @@
-a:11:{s:9:"squelette";s:37:"html_558fc2678d533c8b938d83a53e5dd70b";s:6:"source";s:42:"prive/formulaires/inc-options-langues.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"6/for-opt-lan-var-lan-ecr--560cbc99";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:5:"texte";s:3857:"
+a:11:{s:9:"squelette";s:37:"html_558fc2678d533c8b938d83a53e5dd70b";s:6:"source";s:42:"prive/formulaires/inc-options-langues.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"6/for-opt-lan-var-lan-ecr--560cbc99";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:5:"texte";s:4054:"
 	 
 		<option value='ar' dir="rtl">&#91;ar&#93; &#1593;&#1585;&#1576;&#1610;</option>
 	
@@ -195,4 +195,4 @@ a:11:{s:9:"squelette";s:37:"html_558fc2678d533c8b938d83a53e5dd70b";s:6:"source";
 		<option value='zh' dir="ltr">&#91;zh&#93; &#20013;&#25991;</option>
 	
 
-";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:4:"name";s:15:"var_lang_ecrire";s:7:"default";s:2:"fr";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-11 17:26:20";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-11 17:26:20";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368293180;s:2:"gz";b:0;}
+";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:4:"name";s:15:"var_lang_ecrire";s:7:"default";s:2:"fr";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-16 07:54:48";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 07:54:48";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368690888;s:2:"gz";b:0;}

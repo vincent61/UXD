@@ -1,4 +1,4 @@
-a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";s:20:"squelettes/page.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"7/pag-pag-1--f51a8b60566d69ab6adc93";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:10021:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";s:20:"squelettes/page.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"7/pag-pag-1--f51a8b60566d69ab6adc93";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:10891:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
 <!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
 <!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
@@ -13,6 +13,46 @@ a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";
 <![endif]-->
 <link rel="stylesheet" href="squelettes/css/reset.css" type="text/css" />
 <link rel="stylesheet" href="squelettes/css/page.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<script>
+$(document).ready(function(){
+	var timer;
+
+	$("#back-top").hide();
+
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+	});
+
+	// scroll body to 0px on click
+	$('#back-top a').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+	});
+
+	$('.MenuCache').parent().mouseenter( function() {
+		clearTimeout(timer);
+		var $this = $(this);
+
+		timer = setTimeout(function(){
+			$this.children('ul').stop().slideDown(500);
+		}, 100);
+	} );
+
+	$('.MenuCache').parent().mouseleave( function() {
+		clearTimeout(timer);
+		$(this).children('ul').stop().slideUp(500);
+	} );
+});
+</script>
+
 </head>
 
 <body class="pas_surlignable page_sommaire">
@@ -55,7 +95,7 @@ a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";
 				</ul>
 			</li>
 
-			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et Stages</a>
+			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et stages</a>
 				<ul class="MenuCache">
 					
 						<li>
@@ -188,6 +228,7 @@ a:11:{s:9:"squelette";s:37:"html_f2fb10a416839eb61be04766873c85f4";s:6:"source";
 			
 		
 	<section>
+
+	<div id="back-top"><a href="#">Haut de page</a></div>
 </body>
-</html>
-";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:4:"page";s:11:"id_rubrique";i:1;s:4:"date";s:19:"2013-05-11 18:48:48";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-11 18:48:48";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368298128;s:2:"gz";b:0;}
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:4:"page";s:11:"id_rubrique";i:1;s:4:"date";s:19:"2013-05-16 09:35:35";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 09:35:35";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368696935;s:2:"gz";b:0;}

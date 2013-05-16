@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes/page.html
- * Date :      Sat, 11 May 2013 17:41:40 GMT
- * Compile :   Sat, 11 May 2013 17:41:43 GMT
+ * Date :      Thu, 16 May 2013 09:37:55 GMT
+ * Compile :   Thu, 16 May 2013 09:37:58 GMT
  * Boucles :   _sousrubrique1, _sousrubrique2, _sousrubrique7, _sousrubrique12, _sousrubrique16, _sousrubrique20, _article, _sousrubrique, _rubrique
  */ 
 
@@ -36,7 +36,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique1',25,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique1',65,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -92,7 +92,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique2',35,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique2',75,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -148,7 +148,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique7',45,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique7',85,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -204,7 +204,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique12',55,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique12',95,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -260,7 +260,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique16',65,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique16',105,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -316,7 +316,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique20',75,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique20',115,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -374,7 +374,7 @@ quete_condition_postdates('articles.date',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_article',95,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_article',135,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -432,7 +432,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique',93,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_sousrubrique',133,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -489,7 +489,7 @@ quete_condition_statut('rubriques.statut','!','publie',''),
 	$iter = IterFactory::create(
 		"SQL",
 		$command,
-		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_rubrique',91,$GLOBALS['spip_lang'])
+		array('squelettes/page.html','html_f2fb10a416839eb61be04766873c85f4','_rubrique',131,$GLOBALS['spip_lang'])
 	);
 	if (!$iter->err()) {
 	lang_select($GLOBALS['spip_lang']);
@@ -516,7 +516,7 @@ BOUCLE_sousrubriquehtml_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublon
 
 //
 // Fonction principale du squelette squelettes/page.html
-// Temps de compilation total: 24.084 ms
+// Temps de compilation total: 35.587 ms
 //
 
 function html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -613,6 +613,46 @@ interdire_scripts(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect, $Pile[0])
 		('<link rel="stylesheet" href="' . $t1 . '" type="text/css" />') :
 		'') .
 '
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<script>
+$(document).ready(function(){
+	var timer;
+
+	$("#back-top").hide();
+
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$(\'#back-top\').fadeIn();
+			} else {
+				$(\'#back-top\').fadeOut();
+			}
+	});
+
+	// scroll body to 0px on click
+	$(\'#back-top a\').click(function () {
+		$(\'body,html\').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+	});
+
+	$(\'.MenuCache\').parent().mouseenter( function() {
+		clearTimeout(timer);
+		var $this = $(this);
+
+		timer = setTimeout(function(){
+			$this.children(\'ul\').stop().slideDown(500);
+		}, 100);
+	} );
+
+	$(\'.MenuCache\').parent().mouseleave( function() {
+		clearTimeout(timer);
+		$(this).children(\'ul\').stop().slideUp(500);
+	} );
+});
+</script>
+
 </head>
 
 <body class="pas_surlignable page_sommaire">
@@ -639,7 +679,7 @@ BOUCLE_sousrubrique2html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublo
 				</ul>
 			</li>
 
-			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et Stages</a>
+			<li id="MetiersStagesTitre"><a href="./spip.php?page=page&id_rubrique=7">Métiers et stages</a>
 				' .
 interdire_scripts(choixsiegal(entites_html(table_valeur(@$Pile[0], (string)'id_rubrique', null),true),'7','<ul>','<ul class="MenuCache">')) .
 '
@@ -682,7 +722,7 @@ BOUCLE_sousrubrique20html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doubl
 		</ul>
 
 		<div id="logo">
-			<a href="http://www.utc.fr"><img src="squelettes/css/images/logo_utc.png" alt= "UTC"></img></a>
+			<a href="http://www.utc.fr"><img src="squelettes/images/logo_utc.png" alt= "UTC"></img></a>
 		</div>
 	</nav>
 
@@ -691,9 +731,10 @@ BOUCLE_sousrubrique20html_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doubl
 BOUCLE_rubriquehtml_f2fb10a416839eb61be04766873c85f4($Cache, $Pile, $doublons, $Numrows, $SP) .
 '
 	<section>
+
+	<div id="back-top"><a href="#">Haut de page</a></div>
 </body>
-</html>
-');
+</html>');
 
 	return analyse_resultat_skel('html_f2fb10a416839eb61be04766873c85f4', $Cache, $page, 'squelettes/page.html');
 }

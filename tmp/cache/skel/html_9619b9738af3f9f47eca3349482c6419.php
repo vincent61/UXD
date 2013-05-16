@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/sommaire.html
- * Date :      Sun, 12 May 2013 10:34:44 GMT
- * Compile :   Sun, 12 May 2013 10:37:12 GMT
+ * Date :      Thu, 16 May 2013 09:35:31 GMT
+ * Compile :   Thu, 16 May 2013 09:35:40 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/sommaire.html
-// Temps de compilation total: 5.532 ms
+// Temps de compilation total: 5.588 ms
 //
 
 function html_9619b9738af3f9f47eca3349482c6419($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -112,54 +112,41 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
 <![endif]-->
  <script>
     $(function () { 
-    $(\'.rubriqueEnseignement .noire\').stop(true, true).slideUp(0);
-    $(\'.rubriqueInternational .noire\').stop(true, true).slideUp(0);
-    $(\'.rubriqueMetiersStages .noire\').stop(true, true).slideUp(0);
-    $(\'.rubriqueEquipesRecherche .noire\').stop(true, true).slideUp(0);
-    $(\'.rubriqueProjets .noire\').stop(true, true).slideUp(0);
-    $(\'.rubriqueInformationsPratiques .noire\').stop(true, true).slideUp(0);
+    $(\'#rubriqueEnseignement .noire\').stop(true, true).slideUp(0);
+    $(\'#rubriqueInternational .noire\').stop(true, true).slideUp(0);
+    $(\'#rubriqueMetiersStages .noire\').stop(true, true).slideUp(0);
+    $(\'#rubriqueEquipesRecherche .noire\').stop(true, true).slideUp(0);
+    $(\'#rubriqueProjets .noire\').stop(true, true).slideUp(0);
+    $(\'#rubriqueInformationsPratiques .noire\').stop(true, true).slideUp(0);
 
-    $(\'.rubriqueEnseignement\').hover(function () {
+    $(\'#rubriqueEnseignement\').hover(function () {
     clearTimeout($.data(this, \'timer\'));
-    $(\'.rubriqueEnseignement .noire\').stop(true, true).slideDown(200);
+    $(\'#rubriqueEnseignement .noire\').stop(true, true).slideDown(200);
     }, function () {
     $.data(this, \'timer\', setTimeout($.proxy(function() {
-    $(\'.rubriqueEnseignement .noire\').stop(true, true).slideUp(200);
+    $(\'#rubriqueEnseignement .noire\').stop(true, true).slideUp(200);
     }, this), 200));
     });
     });
 
     $(function () {  
-    $(\'.rubriqueInternational\').hover(function () {
+    $(\'#rubriqueInternational\').hover(function () {
     clearTimeout($.data(this, \'timer\'));
-    $(\'.rubriqueInternational .noire\').stop(true, true).slideDown(200);
+    $(\'#rubriqueInternational .noire\').stop(true, true).slideDown(200);
     }, function () {
     $.data(this, \'timer\', setTimeout($.proxy(function() {
-    $(\'.rubriqueInternational .noire\').stop(true, true).slideUp(200);
+    $(\'#rubriqueInternational .noire\').stop(true, true).slideUp(200);
     }, this), 200));
     });
     });
     $(function () {  
 
-    $(\'.rubriqueMetiersStages\').hover(function () {
+    $(\'#rubriqueMetiersStages\').hover(function () {
     clearTimeout($.data(this, \'timer\'));
-    $(\'.rubriqueMetiersStages .noire\').stop(true, true).slideDown(200);
+    $(\'#rubriqueMetiersStages .noire\').stop(true, true).slideDown(200);
     }, function () {
     $.data(this, \'timer\', setTimeout($.proxy(function() {
-    $(\'.rubriqueMetiersStages .noire\').stop(true, true).slideUp(200);
-    }, this), 200));
-    });
-
-    });
-
-    $(function () {  
-
-    $(\'.rubriqueEquipesRecherche\').hover(function () {
-    clearTimeout($.data(this, \'timer\'));
-    $(\'.rubriqueEquipesRecherche .noire\').stop(true, true).slideDown(200);
-    }, function () {
-    $.data(this, \'timer\', setTimeout($.proxy(function() {
-    $(\'.rubriqueEquipesRecherche .noire\').stop(true, true).slideUp(200);
+    $(\'#rubriqueMetiersStages .noire\').stop(true, true).slideUp(200);
     }, this), 200));
     });
 
@@ -167,23 +154,36 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
 
     $(function () {  
 
-    $(\'.rubriqueProjets\').hover(function () {
+    $(\'#rubriqueEquipesRecherche\').hover(function () {
     clearTimeout($.data(this, \'timer\'));
-    $(\'.rubriqueProjets .noire\').stop(true, true).slideDown(200);
+    $(\'#rubriqueEquipesRecherche .noire\').stop(true, true).slideDown(200);
     }, function () {
     $.data(this, \'timer\', setTimeout($.proxy(function() {
-    $(\'.rubriqueProjets .noire\').stop(true, true).slideUp(200);
+    $(\'#rubriqueEquipesRecherche .noire\').stop(true, true).slideUp(200);
+    }, this), 200));
+    });
+
+    });
+
+    $(function () {  
+
+    $(\'#rubriqueProjets\').hover(function () {
+    clearTimeout($.data(this, \'timer\'));
+    $(\'#rubriqueProjets .noire\').stop(true, true).slideDown(200);
+    }, function () {
+    $.data(this, \'timer\', setTimeout($.proxy(function() {
+    $(\'#rubriqueProjets .noire\').stop(true, true).slideUp(200);
     }, this), 200));
     });
     });
     $(function () {  
 
-    $(\'.rubriqueInformationsPratiques\').hover(function () {
+    $(\'#rubriqueInformationsPratiques\').hover(function () {
     clearTimeout($.data(this, \'timer\'));
-    $(\'.rubriqueInformationsPratiques .noire\').stop(true, true).slideDown(200);
+    $(\'#rubriqueInformationsPratiques .noire\').stop(true, true).slideDown(200);
     }, function () {
     $.data(this, \'timer\', setTimeout($.proxy(function() {
-    $(\'.rubriqueInformationsPratiques .noire\').stop(true, true).slideUp(200);
+    $(\'#rubriqueInformationsPratiques .noire\').stop(true, true).slideUp(200);
     }, this), 200));
     });
     });
@@ -202,39 +202,39 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
     </div>
         
     <div id="rubriques">
-        <a class="rubriqueEnseignement gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
-              <div class="titre"><span>E</span>NSEIGNEMENT</div>
-             <img src="./squelettes/images/enseignement.png"  width="290" height="157">
+        <a id="rubriqueEnseignement" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=1">
+              <div class="titre">Enseignement</div>
+             <img src="./squelettes/images/enseignement.jpg"  width="290" height="157">
               <img class="noire" src="./squelettes/images/noire.png"width="290" >
         </a>
         
-        <a class="rubriqueInternational gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
-                <div class="titre"><span>I</span>NTERNATIONAL</div>
-                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+        <a id="rubriqueInternational" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=2">
+                <div class="titre">International</div>
+                <img src="./squelettes/images/international.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"width="290">
         </a>
         
-        <a class="rubriqueMetiersStages gradient" href="#">
-                <div class="titre"><span>M</span>ETIERS et <span>S</span>TAGE</div>
-                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+        <a id="rubriqueMetiersStages" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=7">
+                <div class="titre">Métiers et stages</div>
+                <img src="./squelettes/images/metiersStages.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a class="rubriqueEquipesRecherche gradient" href="#">
-                <div class="titre"><span>E</span>QUIPES de <span>R</span>ECHERCHE</div>
-                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+        <a id="rubriqueEquipesRecherche" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=12">
+                <div class="titre">Equipes de recherche</div>
+                <img src="./squelettes/images/equipesRecherche.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a class="rubriqueProjets gradient" href="#">
-                <div class="titre"><span>P</span>ROJETS</div>
-                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+        <a id="rubriqueProjets" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=16">
+                <div class="titre">Projets</div>
+                <img src="./squelettes/images/projets.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
         
-        <a class="rubriqueInformationsPratiques gradient" href="#">
-                <div class="titre"><span>I</span>NFORMATIONS <span>P</span>RATIQUES</div>
-                <img src="./squelettes/images/enseignement.png" width="290" height="157">
+        <a id="rubriqueInformationsPratiques" class="gradient" href="http://localhost/UXD/spip.php?page=page&id_rubrique=20">
+                <div class="titre">Informations pratiques</div>
+                <img src="./squelettes/images/informationsPratiques.jpg" width="290" height="157">
                 <img class="noire" src="./squelettes/images/noire.png"  width="290" height="157">
         </a>
     </div>
@@ -247,8 +247,7 @@ interdire_scripts(textebrut(typo($GLOBALS['meta']['nom_site'], "TYPO", $connect,
          </div>
         
     </div>
-	</div><!--.main-->	
-	
+	</div><!--.main-->	 
 </div><!--.page-->
 </body>
 </html>

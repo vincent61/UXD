@@ -2,13 +2,13 @@
 
 /*
  * Squelette : prive/formulaires/login.html
- * Date :      Sat, 27 Apr 2013 18:44:49 GMT
- * Compile :   Wed, 08 May 2013 09:33:49 GMT
+ * Date :      Wed, 15 May 2013 18:19:34 GMT
+ * Compile :   Thu, 16 May 2013 07:54:48 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette prive/formulaires/login.html
-// Temps de compilation total: 4.802 ms
+// Temps de compilation total: 10.997 ms
 //
 
 function html_95bc8c2ddd5dc767f80119be5d553377($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {
@@ -93,7 +93,11 @@ function html_95bc8c2ddd5dc767f80119be5d553377($Cache, $Pile, $doublons=array(),
 			'') .
 	'<input type=\'text\' class=\'text\' name=\'var_login\' id=\'var_login\' value="' .
 	table_valeur(@$Pile[0], (string)'var_login', null) .
-	'" size=\'40\' autocapitalize="off" autocorrect="off" />
+	'" size=\'40\'' .
+	(($t2 = ' ')!=='' ?
+			($t2 . ' required=\'required\' autofocus=\'autofocus\'') :
+			'') .
+	' autocapitalize="off" autocorrect="off" />
 			</li>
 			<li class="editer editer_password obligatoire' .
 	((table_valeur(table_valeur(@$Pile[0], (string)'erreurs', null),'password'))  ?

@@ -2,8 +2,8 @@
 
 /*
  * Squelette : prive/formulaires/inc-options-langues.html
- * Date :      Sat, 27 Apr 2013 18:44:49 GMT
- * Compile :   Wed, 08 May 2013 09:33:49 GMT
+ * Date :      Wed, 15 May 2013 18:19:34 GMT
+ * Compile :   Thu, 16 May 2013 07:54:48 GMT
  * Boucles :   _langues
  */ 
 
@@ -89,7 +89,7 @@ function BOUCLE_langueshtml_558fc2678d533c8b938d83a53e5dd70b(&$Cache, &$Pile, &$
 
 //
 // Fonction principale du squelette prive/formulaires/inc-options-langues.html
-// Temps de compilation total: 8.905 ms
+// Temps de compilation total: 9.304 ms
 //
 
 function html_558fc2678d533c8b938d83a53e5dd70b($Cache, $Pile, $doublons=array(), $Numrows=array(), $SP=0) {

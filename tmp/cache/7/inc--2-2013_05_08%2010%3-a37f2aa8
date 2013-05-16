@@ -1,9 +1,0 @@
-a:11:{s:9:"squelette";s:37:"html_71110a4d981e8cd60fa6e0a4839d2215";s:6:"source";s:32:"squelettes-dist/inclure/nav.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"7/inc--2-2013_05_08%2010%3-a37f2aa8";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:146:"
-<div class="nav clearfix  none" id="nav">
-	<ul>
-		
-		<li class="on"><a href="spip.php?rubrique1">Ma première rubrique</a></li>
-		
-	</ul>
-</div>
-";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:8:"article2";s:0:"";s:10:"id_article";s:1:"2";s:4:"date";s:19:"2013-05-08 10:08:03";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-08 10:08:03";s:18:"date_redac_default";b:1;s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1368007683;s:2:"gz";b:0;}

@@ -1,4 +1,4 @@
-a:11:{s:9:"squelette";s:37:"html_5cd8dadca9d6b209c8f80cd4f560a0fd";s:6:"source";s:32:"prive/formulaires/menu_lang.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"f/for-lan-var-lan-ecr-htt--eefd3b6a";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:5:"texte";s:4517:"<div class="formulaire_spip formulaire_menu_lang" id="formulaire_menu_lang">
+a:11:{s:9:"squelette";s:37:"html_5cd8dadca9d6b209c8f80cd4f560a0fd";s:6:"source";s:32:"prive/formulaires/menu_lang.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"f/for-lan-var-lan-ecr-htt--eefd3b6a";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:5:"texte";s:4718:"<div class="formulaire_spip formulaire_menu_lang" id="formulaire_menu_lang">
 <form method="post" action="http://localhost/UXD/spip.php?action=converser&amp;redirect=spip.php%3Fpage%3Dlogin%26url%3D%252FUXD%252Fecrire%252F"><div>
 	<input name="action" value="converser" type="hidden"
 /><input name="redirect" value="spip.php?page=login&amp;url=%2FUXD%2Fecrire%2F" type="hidden"
@@ -201,4 +201,4 @@ a:11:{s:9:"squelette";s:37:"html_5cd8dadca9d6b209c8f80cd4f560a0fd";s:6:"source";
 	</select>
 	<noscript><p class="boutons"><input type="submit" class="submit" value="&gt;&gt;" /></p></noscript>
 </div></form>
-</div>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:3:"nom";s:15:"var_lang_ecrire";s:3:"url";s:112:"http://localhost/UXD/spip.php?action=converser&redirect=spip.php%3Fpage%3Dlogin%26url%3D%252FUXD%252Fecrire%252F";s:4:"name";s:15:"var_lang_ecrire";s:7:"default";s:2:"fr";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-08 16:50:14";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-08 16:50:14";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368031814;s:2:"gz";b:0;}
+</div>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:3:"nom";s:15:"var_lang_ecrire";s:3:"url";s:112:"http://localhost/UXD/spip.php?action=converser&redirect=spip.php%3Fpage%3Dlogin%26url%3D%252FUXD%252Fecrire%252F";s:4:"name";s:15:"var_lang_ecrire";s:7:"default";s:2:"fr";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2013-05-16 07:54:48";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2013-05-16 07:54:48";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1368690888;s:2:"gz";b:0;}
